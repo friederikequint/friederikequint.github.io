@@ -21,7 +21,7 @@ author:
  # googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
  # orcid: "http://orcid.org/yourorcidurl"
  # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  github: "https://github.com/friederikequint"
+  github: "friederikequint"
  # bluesky: "bsky.app"
   linkedin: "https://www.linkedin.com/in/friederikequint/"
   twitter: "@FriederikeQ"
@@ -88,6 +88,8 @@ exclude:
   - tmp
   - vendor
   - _pages/publications.md
+  - _pages/talks.md
+  - _pages/teaching.md
 keep_files:
   - .git
   - .svn
