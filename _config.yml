@@ -12,7 +12,7 @@ title                    : "Friederike Quint"
 title_separator          : "-"
 name                     : &name "Friederike Quint"
 description              : &description "Doctoral Candidate and Research Associate at the Chair of Digital Governance @TUM"
-url                      : https://github.com/friederikequint # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://github.com/friederikequint" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "friederikequint.github.io"
 
