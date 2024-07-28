@@ -31,11 +31,15 @@ Work experience
   
 
 
-Talks
+Talks & Conferences
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* July 2024. European Political Science Association (EPSA), Cologne
+  
+* July 2024. Talk Series: Behind the Scenes - Conversations on Empirical Platform Governance Research, hosted by the Lab ”Platform Governance, Media, and Technology” (PGMT) at University of Bremen, and Centre for Media and Journalism Studies, university of Groningen. Invited presentation: Presentation of paper project ”Does the Community Understand the Community Guidelines?”, Online
+  
+* June 2024. Workshop "Navigating the Evolving Landscape of Social Media Research”. Invited presentation: Presentation of my first dissertation paper ”Does the Community Understand the Community Guidelines?” Universität der Bundeswehr, Munich
+
+* May 2024. Workshop Community Event 2024. Invited talk & workshop: Workshop and presentation of three research projects revolving around transparency and attitudes towards content moderation on social media Das Nettz, Berlin
 
 
   
