@@ -18,11 +18,11 @@ author:
   employer: "Technical University of Munich"
   uri: # URL
   email: "friederike.quint@tum.de" 
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid: "http://orcid.org/yourorcidurl"
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  github: "academicpages"
-  bluesky: "bsky.app"
+ # googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+ # orcid: "http://orcid.org/yourorcidurl"
+ # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  github: "https://github.com/friederikequint"
+ # bluesky: "bsky.app"
   linkedin: "https://www.linkedin.com/in/friederikequint/"
   twitter: "@FriederikeQ"
 
@@ -87,6 +87,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _pages/publications.md
 keep_files:
   - .git
   - .svn
