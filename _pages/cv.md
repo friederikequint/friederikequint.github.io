@@ -11,54 +11,32 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Dr. Phil in Political Science, Technical University of Munich, September 2023 - present 
+* M.A. in Political Science, University of Mannheim, September 2021 - June 2023
+* M.A., Semester Abroad, Political Science, Aarhus University, August 2022 - January 2023
+* B.A. in Political Science, University of Mannheim, September 2018 - June 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/), Technical University of Munich/TUM Think Tank (May 2024 - present)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Associate, Technical University of Munich (September 2023 - present)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Research Assistant, University of Mannheim (September 2021 - July 2023)
+
+* Research Internship European Public Affairs, Ipsos Beligum (September 2021 - July 2023)
+
+* Research Assistant Survey Design & Methodology, GESIS-Leibiniz Institute for the Social Sciences (August 2019 - August 2021)
+
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
+
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+-- Detailed CV upon request. 
