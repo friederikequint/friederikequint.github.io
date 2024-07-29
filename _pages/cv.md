@@ -14,7 +14,7 @@ Education
 
 * Dr. Phil. in Political Science, Technical University of Munich, September 2023 - present 
 * M.A. in Political Science, University of Mannheim, September 2021 - June 2023
-* M.A., Semester Abroad, Political Science, Aarhus University, August 2022 - January 2023
+* M.A., in Political Science, Semester Abroad, Aarhus University, August 2022 - January 2023
 * B.A. in Political Science, University of Mannheim, September 2018 - June 2021
 
 
