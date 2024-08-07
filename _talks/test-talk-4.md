@@ -4,7 +4,7 @@ collection: talk
 type: "Presentation"
 permalink: /talks/test-talk-4
 date: September 7, 2024
-location: "Philadelhpia, USA"
+location: "Philadelphia, USA"
 link: https://tinyurl.com/2d9rv4vl 
 ---
 
