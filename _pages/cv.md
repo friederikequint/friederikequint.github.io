@@ -24,9 +24,9 @@ Education
 Work experience
 ======
 
-* Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/), Technical University of Munich/TUM Think Tank (May 2024 - present)
+* Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/), Technical University of Munich/TUM Think Tank (*May 2024 - present*)
 
-* Research Assistant, Chair of Empirical Democracy Research University of Mannheim (*September 2021 - July 2023*)
+* Research Assistant, Chair of Empirical Democracy Research, University of Mannheim (*September 2021 - July 2023*)
 
 * Research Internship European Public Affairs, Ipsos Beligum, Leuven (*September 2021 - July 2023*)
 
