@@ -12,10 +12,13 @@ redirect_from:
 Education
 ======
 
-* Dr. Phil. in Political Science, Technical University of Munich, September 2023 - present 
-* M.A. in Political Science, University of Mannheim, September 2021 - June 2023
-* M.A., in Political Science, Semester Abroad, Aarhus University, August 2022 - January 2023
-* B.A. in Political Science, University of Mannheim, September 2018 - June 2021
+* Dr. Phil. Political Science, Technical University of Munich (*September 2023 - present*)
+  
+* M.A. Political Science, University of Mannheim (*September 2021 - June 2023*)
+  
+* Semester Abroad, M.A. Political Science, Aarhus University (*August 2022 - January 2023*)
+  
+* B.A. Political Science, University of Mannheim (*September 2018 - June 2021*)
 
 
 Work experience
@@ -23,12 +26,12 @@ Work experience
 
 * Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/), Technical University of Munich/TUM Think Tank (May 2024 - present)
 
-* Research Assistant, University of Mannheim (September 2021 - July 2023)
+* Research Assistant, Chair of Empirical Democracy Research University of Mannheim (*September 2021 - July 2023*)
 
-* Research Internship European Public Affairs, Ipsos Beligum (September 2021 - July 2023)
+* Research Internship European Public Affairs, Ipsos Beligum, Leuven (*September 2021 - July 2023*)
 
-* Research Assistant Survey Design & Methodology, GESIS-Leibiniz Institute for the Social Sciences (August 2019 - August 2021)
+* Research Assistant, Cognitive Pretesting, Survey Design & Methodology, GESIS-Leibiniz Institute for the Social Sciences, Mannheim (*August 2019 - August 2021*)
 
 
   
--- Detailed CV upon request. 
+-- [Detailed CV upon request](mailto:friederike.quint@tum.de)
