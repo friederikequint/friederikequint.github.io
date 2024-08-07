@@ -29,7 +29,7 @@
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <!-- External link with target="_blank" -->
-        <a href="{{ post.link }}" target="_blank">{{ title }}</a> 
+        <a href="{{ post.link }}" target="_blank">{{ title }}</a>
         <!-- Permalink with target="_blank" -->
         <a href="{{ base_path }}{{ post.url }}" rel="permalink" target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
