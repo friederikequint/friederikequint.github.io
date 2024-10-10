@@ -8,4 +8,4 @@ location: "Philadelphia, USA"
 link: https://x.com/FriederikeQ/status/1832905589149577421 
 ---
 
-Presentation of the paper "Does the Community Understand the Community Guidelines" at APSA 2024, Division 40: ITP, Session: Digital Platforms, Freedom of Speech, and Power. The panel runs on September 7, 8.00-9.30 am, location TBA. 
+
