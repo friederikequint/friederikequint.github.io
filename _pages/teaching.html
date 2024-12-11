@@ -7,6 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+# Teaching Archive
+
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+# Workshops
+
+{% for post in site.workshops reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
