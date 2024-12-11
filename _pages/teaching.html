@@ -17,8 +17,10 @@ Workshops
       {% else %}
         <a href="{{ post.url }}">{{ post.title }}</a>
       {% endif %}
-      {% if post.date %}
-        <small>({{ post.date }})</small>
+      {% if post.date_display %}
+        <small>({{ post.date_display }})</small>
+      {% else %}
+        <small>({{ post.date | date: "%B %d, %Y" }})</small>
       {% endif %}
       {% if post.location %}
         <p><strong>Location:</strong> {{ post.location }}</p>
