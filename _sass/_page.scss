@@ -5,21 +5,16 @@
 #main {
   @include container;
   @include clearfix;
-  display: flex; /* Enables flexbox for proper layout */
-  align-items: flex-start; /* Align items at the top */
-  justify-content: center; /* Center content horizontally */
-  gap: 2em; /* Creates space between profile and text */
-  margin: 2em auto;
-  padding: 2em;
-  max-width: 1000px; /* Slightly increase width for better readability */
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-  
+
   @include breakpoint($x-large) {
-    max-width: 1100px; /* Ensure it's not too wide on large screens */
+    max-width: $x-large;
   }
 }
-
 
 .page {
   @include breakpoint($large) {
@@ -404,4 +399,3 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-
