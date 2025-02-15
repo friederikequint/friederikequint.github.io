@@ -87,9 +87,6 @@ exclude:
   - package.json
   - tmp
   - vendor
-  - _pages/publications.md
-  - _pages/talks.md
-  - _pages/teaching.md
 keep_files:
   - .git
   - .svn
