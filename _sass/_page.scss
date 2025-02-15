@@ -5,16 +5,17 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin: 2em auto; /* Center the content and add top margin */
+  padding: 2em; /* Add more spacing inside the container */
+  max-width: 900px; /* Slightly increase width for better readability */
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 1000px; /* Ensure it's not too wide on large screens */
   }
 }
+
 
 .page {
   @include breakpoint($large) {
@@ -399,3 +400,29 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Responsive Design for Smaller Screens
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .page__content {
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 1em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  #main {
+    padding: 1.5em; /* Reduce padding slightly for smaller screens */
+    max-width: 95%; /* Ensure it adapts to mobile width */
+  }
+}
+
