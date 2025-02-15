@@ -4,8 +4,6 @@ collection: publications
 permalink: /publication/2025-02-11-content-warning
 excerpt: 'This paper examines public attitudes on content moderation and freedom of expression, analyzing the balance between online safety and free speech.'
 date: 2025-02-11
-venue: 'Report'
-slidesurl: 'http://academicpages.github.io/files/slides-content-warning.pdf'
 paperurl: 'https://doi.org/10.17605/OSF.IO/F56BH'
 citation: 'Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, February 11). <i>Content Warning: Public Attitudes on Content Moderation and Freedom of Expression</i>. https://doi.org/10.17605/OSF.IO/F56BH'
 ---
