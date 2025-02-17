@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
+
 
 * Dr. Phil. Political Science, Technical University of Munich (*September 2023 - present*)
   
@@ -21,10 +21,10 @@ Education
 * B.A. Political Science, University of Mannheim (*September 2018 - June 2021*)
 
 
-Work experience
-======
+## Work experience
 
-* Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/), Technical University of Munich/TUM Think Tank (*May 2024 - present*)
+
+* Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/){:target="_blank"}, Technical University of Munich/TUM Think Tank (*May 2024 - present*)
 
 * Research Assistant, Chair of Empirical Democracy Research, University of Mannheim (*September 2021 - July 2023*)
 
