@@ -19,11 +19,11 @@ author:
   uri: # URL
   email: "friederike.quint@tum.de" 
  # googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid: "https://orcid.org/0009-0006-7158-1369"{:target="_blank"}
+  orcid: "https://orcid.org/0009-0006-7158-1369"
  # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  github: "friederikequint"{:target="_blank"}
-  bluesky: "https://bsky.app/profile/friederikeq.bsky.social"{:target="_blank"}
-  linkedin: "friederikequint/"{:target="_blank"}
+  github: "friederikequint"
+  bluesky: "https://bsky.app/profile/friederikeq.bsky.social"
+  linkedin: "friederikequint/"
  # twitter: "@FriederikeQ"{:target="_blank"}
 
 # Site Settings
