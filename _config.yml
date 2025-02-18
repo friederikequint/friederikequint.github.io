@@ -19,12 +19,12 @@ author:
   uri: # URL
   email: "friederike.quint@tum.de" 
  # googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
- # orcid: "http://orcid.org/yourorcidurl"
+  orcid: "https://orcid.org/0009-0006-7158-1369"{:target="_blank"}
  # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  github: "friederikequint"
- # bluesky: "bsky.app"
-  linkedin: "friederikequint/"
-  twitter: "@FriederikeQ"
+  github: "friederikequint"{:target="_blank"}
+  bluesky: "https://bsky.app/profile/friederikeq.bsky.social"{:target="_blank"}
+  linkedin: "friederikequint/"{:target="_blank"}
+ # twitter: "@FriederikeQ"{:target="_blank"}
 
 # Site Settings
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
