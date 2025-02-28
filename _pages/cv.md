@@ -26,6 +26,8 @@ redirect_from:
 
 * Member [Content Moderation Lab](https://tumthinktank.de/project/content-moderation-lab/){:target="_blank"}, Technical University of Munich/TUM Think Tank (*May 2024 - present*)
 
+* Doctoral Candidate & Research Associate, [Chair of Digital Governance](https://www.hfp.tum.de/en/digitalgovernance/home/){:target="_blank"}, Technical University of Munich (*September 2023 - present*)
+  
 * Research Assistant, Chair of Empirical Democracy Research, University of Mannheim (*September 2021 - July 2023*)
 
 * Research Internship European Public Affairs, Ipsos Beligum, Leuven (*September 2021 - July 2023*)
