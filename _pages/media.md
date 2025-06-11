@@ -7,7 +7,7 @@ author_profile: true
 
 ## Online Articles
 
-Theocharis, Y., Kosmidis, S., Zilinsky, J. & Quint, F. (2025, May 06).*What People Want from Platforms Isn’t What Musk and Zuckerberg Are Selling* Tech Policy Press. [Click here to read](https://www.techpolicy.press/what-people-want-from-platforms-isnt-what-musk-and-zuckerberg-are-selling/){:target="_blank"}
+Theocharis, Y., Kosmidis, S., Zilinsky, J. & **Quint, F.** (2025, May 06). *What People Want from Platforms Isn’t What Musk and Zuckerberg Are Selling*. Tech Policy Press. [Click here to read](https://www.techpolicy.press/what-people-want-from-platforms-isnt-what-musk-and-zuckerberg-are-selling/){:target="_blank"}
 
 ---
 
