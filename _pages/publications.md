@@ -16,7 +16,7 @@ Proceedings of the International AAAI Conference on Web and Social Media, 19(1),
 
 Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, February 11).  
 *Content Warning: Public Attitudes on Content Moderation and Freedom of Expression.*  
-[DOI: 10.17605/OSF.IO/F56BH](https://doi.org/10.17605/OSF.IO/F56BH){:target="_blank"}
+[DOI: 10.17605/OSF.IO/F56BH](https://osf.io/s3kcw){:target="_blank"}
 
 ---
 
