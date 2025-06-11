@@ -9,16 +9,35 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-<h2>Talks</h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "Talk" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+{%- comment -%}
+Define the years you want to show, in descending order.
+You can change or extend this list as needed.
+{%- endcomment -%}
+{% assign years = "2025,2024" | split: "," %}
 
-<h2>Presentations</h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "Presentation" %}
-    {% include archive-single-talk.html %}
+{%- for year in years -%}
+  {%- comment -%} Filter posts for this year {% endcomment -%}
+  {% assign posts_for_year = site.talks | where_exp: "post", "post.date | date: '%Y' == year" %}
+  {% if posts_for_year.size > 0 %}
+    <h2>{{ year }}</h2>
+
+    {%- comment -%} Talks in this year {% endcomment -%}
+    {% assign talks_for_year = posts_for_year | where: "type", "Talk" %}
+    {% if talks_for_year.size > 0 %}
+      <h3>Talks</h3>
+      {% for post in talks_for_year reversed %}
+        {% include archive-single-talk.html %}
+      {% endfor %}
+    {% endif %}
+
+    {%- comment -%} Presentations in this year {% endcomment -%}
+    {% assign pres_for_year = posts_for_year | where: "type", "Presentation" %}
+    {% if pres_for_year.size > 0 %}
+      <h3>Presentations</h3>
+      {% for post in pres_for_year reversed %}
+        {% include archive-single-talk.html %}
+      {% endfor %}
+    {% endif %}
   {% endif %}
-{% endfor %}
+{%- endfor -%}
+
