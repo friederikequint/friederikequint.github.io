@@ -13,5 +13,5 @@ Theocharis, Y., Kosmidis, S., Zilinsky, J. & Quint, F. (2025, May 06).*What Peop
 
 ## Interviews
 
-Interview *Social Media: Mehr Moderation gewünscht* [DE] (11.03.2025) in ver.di's Menschen Machen Medien: [Click here to read](https://mmm.verdi.de/aktuelle-meldungen/soziale-medien-mehr-moderation-gewuenscht-101943){:target="_blank"}
+*Social Media: Mehr Moderation gewünscht* [DE] (11.03.2025) in ver.di's Menschen Machen Medien: [Click here to read](https://mmm.verdi.de/aktuelle-meldungen/soziale-medien-mehr-moderation-gewuenscht-101943){:target="_blank"}
 
