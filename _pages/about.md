@@ -12,7 +12,7 @@ redirect_from:
 # About
 
 
-I am a second-year doctoral candidate and research associate at the [Chair of Digital Governance](https://www.hfp.tum.de/en/digitalgovernance/home/){:target="_blank"} at the Technical University of Munich. I am employed in the project "[Transparency in Content Moderation](https://www.tum.de/en/news-and-events/all-news/press-releases/details/analyse-des-verhaltens-von-social-media-plattformen){:target="_blank"}" project. 
+I am a third-year doctoral candidate and research associate at the [Chair of Digital Governance](https://www.hfp.tum.de/en/digitalgovernance/home/){:target="_blank"} at the Technical University of Munich. I am employed in the project "[Transparency in Content Moderation](https://www.tum.de/en/news-and-events/all-news/press-releases/details/analyse-des-verhaltens-von-social-media-plattformen){:target="_blank"}" project. 
 
 
 I'm further involved in the Content Moderation Lab as a member and research collaborator, which is incubated at the TUM Think Tank ([see more](https://tumthinktank.de/project/content-moderation-lab/){:target="_blank"}).
@@ -28,8 +28,8 @@ I'm further involved in the Content Moderation Lab as a member and research coll
 * Public perceptions of content moderation and incivility on social media
 * Platform governance and content regulation
 * Political communication and behavior online and offline
-* Survey experiments and methods of causal inference
-* Computational social science
+* Survey experiments 
+* Causal inference
 
 
 ---
