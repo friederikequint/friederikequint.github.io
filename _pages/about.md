@@ -25,7 +25,7 @@ I'm further involved in the Content Moderation Lab as a member and research coll
 
 
 * Transparency and impacts of online content moderation
-* Public perceptions of content moderation and incivility on social media
+* Public perceptions of content moderation, free speech and incivility on social media
 * Platform governance and content regulation
 * Political communication and behavior online and offline
 * Survey experiments 
