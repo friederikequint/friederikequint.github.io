@@ -1,12 +1,14 @@
 ---
-title: "Facilitating Constructive Dialogue - Toxic Online Speech"
-type: "Workshop"
-permalink: /teaching/workshop_cml/
+layout: page
+title: "Facilitating Constructive Dialogue – Toxic Online Speech"
+event_type: "Workshop"
+permalink: /teaching/workshop-cml/
 date: 2024-12-05
 date_display: "December 5–6, 2024"
 location: "TUM Think Tank, Munich"
-link: "https://tumthinktank.de/wp-content/uploads/Facilitating-Constructive-Dialogue-Workshop-Program-1.pdf"
+external_link: "https://tumthinktank.de/wp-content/uploads/Facilitating-Constructive-Dialogue-Workshop-Program-1.pdf"
 ---
+
 
 To address the escalating challenge of toxic speech online, representatives from academia, civil society, government, and industry will come together for a 2-day workshop at the TUM Think Tank, in collaboration with the Bavarian Authority for New Media (BLM), the Bavarian State Ministry of Justice (StMJ), das NETTZ, the Institute for Strategic Dialogue Germany (ISD), the Bavarian Research Institute for Digital Transformation (bidt), and the Content Moderation Lab at the TUM Think Tank.<br><br>
 We designed and carried out the workshop <b>"Reporting Harmful Content: Insights, Actions, and Impact"</b>. Our interactive workshop explores Meldestelle REspect!'s impactful work as the first Trusted Flagger under the Digital Services Act and unique survey findings on content reporting. Through real-world examples, engaging exercises, and collaborative brainstorming, participants will analyze platform structures and user actions, identifying strategies to empower users and enhance platform accountability.
