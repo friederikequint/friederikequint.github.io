@@ -5,6 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Current Projects
+
+**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. (2025). *Does the Community Understand the Community Guidelines?*
+
+**Quint, F.**, Theocharis, Y., Kosmidis, S., Gaafar, A., & Roberts, M. (2025). *Bystanders and Reporters: Who Acts Against Illegal Online Content?*
+
+--- 
+
 ## Peer-reviewed Papers
 
 Nahrgang, M., Weidmann, N. B., Quint, F., Nagel, S., Theocharis, Y., & Roberts, M. E. (2025). *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
@@ -18,9 +26,5 @@ Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, F
 *Content Warning: Public Attitudes on Content Moderation and Freedom of Expression.*  
 [DOI: 10.17605/OSF.IO/F56BH](https://osf.io/s3kcw){:target="_blank"}
 
----
 
-## Working Papers
-
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. (2025). *Does the Community Understand the Community Guidelines?*
 
