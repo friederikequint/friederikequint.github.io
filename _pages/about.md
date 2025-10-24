@@ -12,7 +12,7 @@ redirect_from:
 # About
 
 
-I am a second-year doctoral candidate and research associate at the [Chair of Digital Governance](https://www.hfp.tum.de/en/digitalgovernance/home/){:target="_blank"} at the Technical University of Munich. I am mainly employed in the project "[Transparency in Content Moderation](https://www.tum.de/en/news-and-events/all-news/press-releases/details/analyse-des-verhaltens-von-social-media-plattformen){:target="_blank"}" project. This project is based at the Technical University of Munich and the University of Konstanz and is funded by the Max Planck-Humboldt Research Award 2022, received by Prof. Margaret E. Roberts (UC San Diego). It is conducted in collaboration with Profs. Yannis Theocharis (Technical University of Munich, Germany) annd Nils Weidmann (University of Konstanz). 
+I am a third-year doctoral candidate and research associate at the [Chair of Digital Governance](https://www.hfp.tum.de/en/digitalgovernance/home/){:target="_blank"} at the Technical University of Munich. I am mainly employed in the project "[Transparency in Content Moderation](https://www.tum.de/en/news-and-events/all-news/press-releases/details/analyse-des-verhaltens-von-social-media-plattformen){:target="_blank"}" project. 
 
 I'm further involved in the newly established Content Moderation Lab as a member and research collaborator, incubated at the TUM Think Tank ([see more](https://tumthinktank.de/project/content-moderation-lab/){:target="_blank"}).
 
@@ -24,12 +24,22 @@ I'm further involved in the newly established Content Moderation Lab as a member
 
 
 * Transparency and impacts of online content moderation
-* Public perceptions of content moderation and incivility on social media
+* Public perceptions of content moderation, free speech and incivility on social media
 * Platform governance and content regulation
 * Political communication and behavior online and offline
-* Survey experiments and methods of causal inference
-* Computational social science
+* Survey experiments 
+* Causal inference
 
 
 
+## News
+
+**New research out:**
+
+Nahrgang, M., Weidmann, N. B., **Quint, F.**, Nagel, S., Theocharis, Y., & Roberts, M. E. (2025). *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
+Proceedings of the International AAAI Conference on Web and Social Media, 19(1), 1295-1314. [https://doi.org/10.1609/icwsm.v19i1.35873](https://doi.org/10.1609/icwsm.v19i1.35873){:target="_blank"}
+
+Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, February 11).  
+*Content Warning: Public Attitudes on Content Moderation and Freedom of Expression.*  
+[DOI: 10.17605/OSF.IO/F56BH](https://osf.io/s3kcw){:target="_blank"}
 
