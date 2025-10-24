@@ -15,7 +15,7 @@ author_profile: true
 
 ## Peer-reviewed Papers
 
-Nahrgang, M., Weidmann, N. B., Quint, F., Nagel, S., Theocharis, Y., & Roberts, M. E. (2025). *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
+Nahrgang, M., Weidmann, N. B., **Quint, F.**, Nagel, S., Theocharis, Y., & Roberts, M. E. (2025). *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
 Proceedings of the International AAAI Conference on Web and Social Media, 19(1), 1295-1314. [https://doi.org/10.1609/icwsm.v19i1.35873](https://doi.org/10.1609/icwsm.v19i1.35873){:target="_blank"}
 
 ---
