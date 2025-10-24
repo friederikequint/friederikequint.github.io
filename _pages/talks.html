@@ -13,21 +13,20 @@ author_profile: true
 {% assign talks_only = site.talks | where: "type", "Talk" | sort: "date" %}
 {% assign talks_by_year = talks_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 {% for year in talks_by_year %}
-  <h2 style="margin-top: 2em; font-size: 1.8em; font-weight: 700;">{{ year.name }}</h2>
+  <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
   {% assign items_sorted = year.items | sort: "date" | reverse %}
   {% for post in items_sorted %}
     {% include archive-single-talk.html %}
   {% endfor %}
 {% endfor %}
 
-<h1 style="margin-top: 3em;">Presentations</h1>
+<h1 style="margin-top: 2.5em;">Presentations</h1>
 {% assign pres_only = site.talks | where: "type", "Presentation" | sort: "date" %}
 {% assign pres_by_year = pres_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 {% for year in pres_by_year %}
-  <h2 style="margin-top: 2em; font-size: 1.8em; font-weight: 700;">{{ year.name }}</h2>
+  <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
   {% assign items_sorted = year.items | sort: "date" | reverse %}
   {% for post in items_sorted %}
     {% include archive-single-talk.html %}
   {% endfor %}
 {% endfor %}
-
