@@ -12,13 +12,13 @@ redirect_from:
 ## Education
 
 
-* Dr. Phil. Political Science, Technical University of Munich (*September 2023 - present*)
+* **Dr. Phil. Political Science**, Technical University of Munich (*September 2023 - present*)
   
-* M.A. Political Science, University of Mannheim (*September 2021 - June 2023*)
+* **M.A. Political Science**, University of Mannheim (*September 2021 - June 2023*)
   
-* Semester Abroad, M.A. Political Science, Aarhus University (*August 2022 - January 2023*)
+* Semester Abroad, **M.A. Political Science**, Aarhus University (*August 2022 - January 2023*)
   
-* B.A. Political Science, University of Mannheim (*September 2018 - June 2021*)
+* **B.A. Political Science**, University of Mannheim (*September 2018 - June 2021*)
 
 
 ## Work experience
