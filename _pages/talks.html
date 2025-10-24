@@ -10,15 +10,23 @@ author_profile: true
 {% endif %}
 
 <h2>Talks</h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "Talk" %}
+{% assign talks_only = site.talks | where: "type", "Talk" | sort: "date" %}
+{% assign talks_by_year = talks_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" %}
+{% for year in talks_by_year %}
+  <h3>{{ year.name }}</h3>
+  {% assign items_sorted = year.items | sort: "date" | reverse %}
+  {% for post in items_sorted %}
     {% include archive-single-talk.html %}
-  {% endif %}
+  {% endfor %}
 {% endfor %}
 
 <h2>Presentations</h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "Presentation" %}
+{% assign pres_only = site.talks | where: "type", "Presentation" | sort: "date" %}
+{% assign pres_by_year = pres_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" %}
+{% for year in pres_by_year %}
+  <h3>{{ year.name }}</h3>
+  {% assign items_sorted = year.items | sort: "date" | reverse %}
+  {% for post in items_sorted %}
     {% include archive-single-talk.html %}
-  {% endif %}
+  {% endfor %}
 {% endfor %}
