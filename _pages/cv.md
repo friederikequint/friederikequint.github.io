@@ -12,7 +12,7 @@ redirect_from:
 ## Education
 
 
-* **Dr. Phil. Political Science**, Technical University of Munich (*September 2023 - present*)
+* **Dr. phil. Political Science**, Technical University of Munich (*September 2023 - present*)
   
 * **M.A. Political Science**, University of Mannheim (*September 2021 - June 2023*)
   
