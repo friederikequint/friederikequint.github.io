@@ -9,7 +9,7 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-<h1>Talks</h1>
+<h1>Invited Talks</h1>
 {% assign talks_only = site.talks | where: "type", "Invited Talk" | sort: "date" %}
 {% assign talks_by_year = talks_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 {% for year in talks_by_year %}
