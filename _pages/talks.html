@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks & Presentations"
+title: "Invited Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -10,7 +10,7 @@ author_profile: true
 {% endif %}
 
 <h1>Talks</h1>
-{% assign talks_only = site.talks | where: "type", "Talk" | sort: "date" %}
+{% assign talks_only = site.talks | where: "type", "Invited Talk" | sort: "date" %}
 {% assign talks_by_year = talks_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 {% for year in talks_by_year %}
   <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
