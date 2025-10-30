@@ -31,15 +31,13 @@
       {% else %}
         {{ title }}
       {% endif %}
-      {%- comment -%}
+      {% comment %}
       If you want to show a small "Details" link to the talk's own page, 
-      just uncomment the line below.
-      {%- endcomment -%}
-      {#
+      just remove the surrounding comment below.
       <a class="archive__item-permalink" href="{{ base_path }}{{ post.url }}" rel="permalink">
         Details
       </a>
-      #}
+      {% endcomment %}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
