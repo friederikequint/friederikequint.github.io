@@ -17,8 +17,7 @@ I am a third-year PhD candidate and research associate at the [Chair of Digital 
 
 Beyond this project, I am involved as a research collaborator in the Content Moderation Lab, incubated at the TUM Think Tank ([see more](https://tumthinktank.de/project/content-moderation-lab/){:target="_blank"}). The lab brings together academic research and policy-relevant work on platform governance, with a focus on translating empirical findings into practical insights.
 
-Across projects, my research combines survey experiments, observational data, and causal inference approaches to better understand the social and political implications of content moderation systems.
-
+Across projects, my research combines survey experiments, observational data, and causal inference approaches, complemented by computational analyses, to better understand patterns of platform use and the social and political implications of content moderation systems.
 
 
 
