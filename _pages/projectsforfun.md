@@ -29,8 +29,8 @@ More precisely: ideas exist, drafts exist, and code exists — though not yet in
   <!-- Text pane -->
   <div style="flex: 1; min-width: 260px;">
     <p style="margin-top: 0;">
-      Below is a short screen recording of the current state of <strong>SanityApp – Daily Mood Log</strong>.
-      The video highlights the core interaction flow and the calendar-based year overview.
+      Here is a short screen recording of the current state of <strong>SanityApp – Daily Mood Log</strong>.
+      The video highlights the (first) core interaction flow and the calendar-based year overview.
     </p>
     <p style="opacity: 0.8; font-size: 0.95em;">
       This build is still work in progress; UI, logic, and visuals may change.
@@ -43,6 +43,7 @@ More precisely: ideas exist, drafts exist, and code exists — though not yet in
       controls
       preload="metadata"
       playsinline
+      poster="{{ '/assets/SanityApp-preview.png' | relative_url }}"
       style="width: 100%; border-radius: 12px;"
     >
       <source src="{{ '/assets/SanityApp-preview.mp4' | relative_url }}" type="video/mp4">
@@ -56,10 +57,12 @@ More precisely: ideas exist, drafts exist, and code exists — though not yet in
       opacity: 0.7;
       text-align: right;
     ">
-      Source: Friederike Quint · © Friederike Quint · All rights reserved
+      ©Friederike Quint · All rights reserved
     </p>
   </div>
 
 </div>
+
+
 
 _(Status: ongoing. Confidence: cautiously optimistic.)_
