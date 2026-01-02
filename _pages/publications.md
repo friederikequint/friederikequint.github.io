@@ -7,9 +7,9 @@ author_profile: true
 
 ## Current Projects
 
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. (2025). *Does the Community Understand the Community Guidelines?*
+**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. (2025). *Does the Community Understand the Community Guidelines?* (Under Review)
 
-**Quint, F.**, Theocharis, Y., Kosmidis, S., Gaafar, A., & Roberts, M. (2025). *Bystanders and Reporters: Who Acts Against Illegal Online Content?*
+**Quint, F.**, Theocharis, Y., Kosmidis, S., Gaafar, A., & Roberts, M. E. (2025). *Bystanders and Reporters: Who Acts Against Illegal Online Content?* (R&R)
 
 --- 
 
