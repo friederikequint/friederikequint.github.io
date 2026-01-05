@@ -46,7 +46,7 @@ More precisely: ideas exist, drafts exist, and code exists — though not yet in
       poster="{{ '/assets/SanityApp-preview.png' | relative_url }}"
       style="width: 100%; border-radius: 12px;"
     >
-      <source src="{{ '/assets/SanityApp-preview.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/Updated Showcasing SanityApp.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
