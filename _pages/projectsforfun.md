@@ -7,7 +7,7 @@ This page hosts a small collection of exploratory side projects developed alongs
 
 These projects are driven by curiosity, experimentation, and a desire to build lightweight, usable tools outside formal research contexts.
 
-(Disclaimer: I'm not a developer but I'm always keen to learn and explore new ways of thinking, technologies, etc. :) )
+(Disclaimer: I am not a developer, but I am always keen to learn about and explore new ways of thinking, technologies, and more :) )
 
 <hr />
 
@@ -34,7 +34,7 @@ These projects are driven by curiosity, experimentation, and a desire to build l
       <p style="margin-top: 0;">
         <strong>SanityApp</strong> is a simple iOS mood-tracking application built with Swift.
         It allows users to log how they’re feeling, reflect on past entries, and gain a lightweight overview
-        of their emotional wellbeing over time.
+        of their emotional wellbeing over time. 
       </p>
 
       <p>
@@ -99,7 +99,7 @@ These projects are driven by curiosity, experimentation, and a desire to build l
 
 <hr />
 
-<h3><strong>Project: ✨ SanityApp Shiny Edition</strong></h3>
+<h3><strong>Project: ✨ SanityApp Shiny Edition ✨ </strong></h3>
 
 <div style="
   margin-top: 16px;
