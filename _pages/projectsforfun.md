@@ -3,7 +3,7 @@ title: Projects for Fun
 permalink: /projectsforfun/
 ---
 
-This page hosts a small collection of exploratory side projects developed alongside my academic work. If you have questions, ideas, or would like to discuss any of these projects, feel free to reach out via <a href="mailto:friederike.quint@tum.de">e-mail</a>.
+This page hosts a small collection of exploratory side projects developed alongside my academic work. If you have questions, ideas, or would like to discuss any of these projects, feel free to reach out via <a href="mailto:friederike.quint@tum.de">email</a>.
 
 These projects are driven by curiosity, experimentation, and a desire to build lightweight, usable tools outside formal research contexts.
 
