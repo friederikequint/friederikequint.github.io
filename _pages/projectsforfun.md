@@ -3,16 +3,12 @@ title: Projects for Fun
 permalink: /projectsforfun/
 ---
 
-🚧 **Under Construction** 🚧  
-
-This page will host a small collection of exploratory side projects developed alongside my academic work.
-
-At present, the content is *in preparation*.  
-More precisely: ideas exist, drafts exist, and code exists — though not yet in a configuration that can be responsibly documented.
+This page hosts a small collection of exploratory side projects developed alongside my academic work.  
+These projects are driven by curiosity, experimentation, and a desire to build lightweight, usable tools outside formal research contexts.
 
 <hr />
 
-<h3>🎥 Little sneak peek: <strong>SanityApp – Daily Mood Log</strong></h3>
+<h3><strong>Project: SanityApp</strong></h3>
 
 <div style="
   display: flex;
@@ -29,11 +25,33 @@ More precisely: ideas exist, drafts exist, and code exists — though not yet in
   <!-- Text pane -->
   <div style="flex: 1; min-width: 260px;">
     <p style="margin-top: 0;">
-      Here is a short screen recording of the current state of <strong>SanityApp – Daily Mood Log</strong>.
-      The video highlights the (first) core interaction flow and the calendar-based year overview.
+      <strong>SanityApp</strong> is a simple iOS mood-tracking application built with Swift.
+      It allows users to log how they’re feeling, reflect on past entries, and gain a lightweight overview of their emotional wellbeing over time.
     </p>
-    <p style="opacity: 0.8; font-size: 0.95em;">
-      This build is still work in progress; UI, logic, and visuals may change.
+
+    <p>
+      The app is intentionally designed as a clean, extendable starting point for personal use,
+      experimentation, or further development of wellbeing-focused mobile applications.
+    </p>
+
+    <p><strong>What the app does:</strong></p>
+    <ul>
+      <li>Record daily mood entries (daily mood, stress level, optional notes)</li>
+      <li>Review previously logged moods</li>
+      <li>Reflect on emotional patterns over time</li>
+      <li>Use a lightweight, private self-reflection tool</li>
+      <li>Download your data for further analysis</li>
+    </ul>
+
+    <p style="margin-bottom: 0;">
+      The full codebase is available as a <strong>public GitHub repository</strong>.
+      The project is free to use, fork, and extend.
+    </p>
+
+    <p style="margin-top: 8px;">
+      🔗 <a href="https://github.com/friederikequint/SanityApp/tree/main" target="_blank" rel="noopener">
+        View SanityApp on GitHub
+      </a>
     </p>
   </div>
 
@@ -50,19 +68,49 @@ More precisely: ideas exist, drafts exist, and code exists — though not yet in
       Your browser does not support the video tag.
     </video>
 
-    <!-- Source / Rights -->
     <p style="
       margin-top: 6px;
       font-size: 0.85em;
       opacity: 0.7;
       text-align: right;
     ">
-      ©Friederike Quint · All rights reserved
+      © Friederike Quint
     </p>
   </div>
 
 </div>
 
+<p style="margin-top: 12px; font-style: italic; opacity: 0.8;">
+  Status: ongoing · Scope: intentionally limited · Confidence: cautiously optimistic
+</p>
 
+<hr />
 
-_(Status: ongoing. Confidence: cautiously optimistic.)_
+<h3><strong>Project: ✨ SanityApp Shiny Edition</strong></h3>
+
+<div style="
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  background: rgba(0,0,0,0.02);
+">
+
+  <p style="margin-top: 0;">
+    <strong>SanityApp Shiny Edition ✨</strong> is a Shiny extension of the original SanityApp, written with R,
+    focused on richer and easier exploration, visualizations, and playful interaction with personal mood data.
+  </p>
+
+  <p>
+    This version offers an easier way of employing a mood-loggin App on your own device for personal usage, engaging with wellbeing data - including interactive views, summaries, and analysis-oriented representations.
+  </p>
+
+  <p style="opacity: 0.85;">
+    The Shiny Edition is currently in development and may evolve in scope, form, or platform.
+  </p>
+
+</div>
+
+<p style="margin-top: 12px; font-style: italic; opacity: 0.8;">
+  Status: still exploring · Form: deliberately open · Confidence: curious
+</p>
