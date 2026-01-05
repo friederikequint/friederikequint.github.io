@@ -3,18 +3,17 @@ title: Projects for Fun
 permalink: /projectsforfun/
 ---
 
-This page hosts a small collection of exploratory side projects developed alongside my academic work.  
+This page hosts a small collection of exploratory side projects developed alongside my academic work. If you have questions, ideas, or would like to discuss any of these projects, feel free to reach out via <a href="mailto:friederike.quint@tum.de">e-mail</a>.
+
 These projects are driven by curiosity, experimentation, and a desire to build lightweight, usable tools outside formal research contexts.
+
+(Disclaimer: I'm not a developer but I'm always keen to learn and explore new ways of thinking, technologies, etc. :) )
 
 <hr />
 
 <h3><strong>Project: SanityApp</strong></h3>
 
 <div style="
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  align-items: flex-start;
   margin-top: 16px;
   padding: 16px;
   border: 1px solid rgba(0,0,0,0.08);
@@ -22,27 +21,64 @@ These projects are driven by curiosity, experimentation, and a desire to build l
   background: rgba(0,0,0,0.02);
 ">
 
-  <!-- Text pane -->
-  <div style="flex: 1; min-width: 260px;">
-    <p style="margin-top: 0;">
-      <strong>SanityApp</strong> is a simple iOS mood-tracking application built with Swift.
-      It allows users to log how they’re feeling, reflect on past entries, and gain a lightweight overview of their emotional wellbeing over time.
-    </p>
+  <!-- Two-column layout -->
+  <div style="
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  ">
 
-    <p>
-      The app is intentionally designed as a clean, extendable starting point for personal use,
-      experimentation, or further development of wellbeing-focused mobile applications.
-    </p>
+    <!-- Text column -->
+    <div style="flex: 1; min-width: 260px;">
+      <p style="margin-top: 0;">
+        <strong>SanityApp</strong> is a simple iOS mood-tracking application built with Swift.
+        It allows users to log how they’re feeling, reflect on past entries, and gain a lightweight overview
+        of their emotional wellbeing over time.
+      </p>
 
-    <p><strong>What the app does:</strong></p>
-    <ul>
-      <li>Record daily mood entries (daily mood, stress level, optional notes)</li>
-      <li>Review previously logged moods</li>
-      <li>Reflect on emotional patterns over time</li>
-      <li>Use a lightweight, private self-reflection tool</li>
-      <li>Download your data for further analysis</li>
-    </ul>
+      <p>
+        The app is intentionally designed as a clean, extendable starting point for personal use,
+        experimentation, or further development of wellbeing-focused mobile applications.
+      </p>
 
+      <p><strong>What the app does:</strong></p>
+      <ul>
+        <li>Record daily mood entries (daily mood, stress level, optional notes)</li>
+        <li>Review previously logged moods</li>
+        <li>Reflect on emotional patterns over time</li>
+        <li>Use a lightweight, private self-reflection tool</li>
+        <li>Download your data for further analysis</li>
+      </ul>
+    </div>
+
+    <!-- Video column -->
+    <div style="flex: 1; min-width: 300px;">
+      <video
+        controls
+        preload="metadata"
+        playsinline
+        poster="{{ '/assets/SanityApp-preview.png' | relative_url }}"
+        style="width: 100%; border-radius: 12px;"
+      >
+        <source src="{{ '/assets/Updated Showcasing SanityApp.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <p style="
+        margin-top: 6px;
+        font-size: 0.85em;
+        opacity: 0.7;
+        text-align: right;
+      ">
+        © Friederike Quint
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Full-width text BELOW the columns -->
+  <div style="margin-top: 16px;">
     <p style="margin-bottom: 0;">
       The full codebase is available as a <strong>public GitHub repository</strong>.
       The project is free to use, fork, and extend.
@@ -55,33 +91,10 @@ These projects are driven by curiosity, experimentation, and a desire to build l
     </p>
   </div>
 
-  <!-- Video pane -->
-  <div style="flex: 1; min-width: 300px;">
-    <video
-      controls
-      preload="metadata"
-      playsinline
-      poster="{{ '/assets/SanityApp-preview.png' | relative_url }}"
-      style="width: 100%; border-radius: 12px;"
-    >
-      <source src="{{ '/assets/Updated Showcasing SanityApp.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    <p style="
-      margin-top: 6px;
-      font-size: 0.85em;
-      opacity: 0.7;
-      text-align: right;
-    ">
-      © Friederike Quint
-    </p>
-  </div>
-
 </div>
 
 <p style="margin-top: 12px; font-style: italic; opacity: 0.8;">
-  Status: ongoing · Scope: intentionally limited · Confidence: cautiously optimistic
+  Status: done for now :)
 </p>
 
 <hr />
