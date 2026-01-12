@@ -105,19 +105,34 @@ These projects are driven by curiosity, experimentation, and a desire to build l
   background: rgba(0,0,0,0.02);
 ">
 
-  <p style="margin-top: 0;">
-    <strong>SanityApp Shiny Edition ✨</strong> is a Shiny extension of the original SanityApp, written with R,
-    focused on richer and easier exploration, visualizations, and playful interaction with personal mood data.
-  </p>
+ <p style="margin-top: 0;">
+  <strong>SanityApp Shiny Edition ✨</strong> (also called <em>Sanity Chronicles</em>) is a mobile-friendly
+  Shiny application for daily mood and stress tracking, built with R and designed for private,
+  lightweight self-reflection.
+</p>
 
-  <p>
-    This version offers an easier way of employing a mood-logging app on your own device for personal usage,
-    and for engaging with wellbeing data through interactive views, summaries, and analysis-oriented representations.
-  </p>
+<p>
+  The app allows users to log a single daily entry within a defined evening time window,
+  explore their emotional states through calendar and trend views, and export their data
+  for personal reflection or further analysis.
+</p>
 
-  <p style="opacity: 0.85;">
-    The Shiny Edition is currently in development and may evolve in scope, form, or platform.
-  </p>
+<p><strong>What the app does:</strong></p>
+<ul>
+  <li>Record one mood and stress entry per day (with optional notes)</li>
+  <li>Restrict entries to a defined daily time window (evening reflection)</li>
+  <li>Visualize moods across a yearly calendar and trend plots</li>
+  <li>Support private (owner) and public demo (guest) usage modes</li>
+  <li>Export entries as CSV or JSON files</li>
+  <li>Run locally or with persistent storage via a database backend</li>
+</ul>
+
+<p style="opacity: 0.85;">
+  The Shiny Edition is intentionally built as a flexible, extendable starting point for
+  experimenting with personal wellbeing data, Shiny-based interfaces, and lightweight
+  self-tracking tools.
+</p>
+
 
   <p style="margin-top: 12px;">
     🚀 <a href="https://friederikequint-shinychronicles-app.share.connect.posit.cloud"
