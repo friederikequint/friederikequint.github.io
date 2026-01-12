@@ -21,7 +21,6 @@ These projects are driven by curiosity, experimentation, and a desire to build l
   background: rgba(0,0,0,0.02);
 ">
 
-  <!-- Two-column layout -->
   <div style="
     display: flex;
     gap: 24px;
@@ -29,7 +28,6 @@ These projects are driven by curiosity, experimentation, and a desire to build l
     align-items: flex-start;
   ">
 
-    <!-- Text column -->
     <div style="flex: 1; min-width: 260px;">
       <p style="margin-top: 0;">
         <strong>SanityApp</strong> is a simple iOS mood-tracking application built with Swift.
@@ -52,7 +50,6 @@ These projects are driven by curiosity, experimentation, and a desire to build l
       </ul>
     </div>
 
-    <!-- Video column -->
     <div style="flex: 1; min-width: 300px;">
       <video
         controls
@@ -77,7 +74,6 @@ These projects are driven by curiosity, experimentation, and a desire to build l
 
   </div>
 
-  <!-- Full-width text BELOW the columns -->
   <div style="margin-top: 16px;">
     <p style="margin-bottom: 0;">
       The full codebase is available as a <strong>public GitHub repository</strong>.
@@ -110,7 +106,7 @@ These projects are driven by curiosity, experimentation, and a desire to build l
 ">
 
   <p style="margin-top: 0;">
-    <strong>SanityChronicles ✨</strong> is a Shiny extension of the original SanityApp, written with R,
+    <strong>SanityApp Shiny Edition ✨</strong> is a Shiny extension of the original SanityApp, written with R,
     focused on richer and easier exploration, visualizations, and playful interaction with personal mood data.
   </p>
 
@@ -123,7 +119,6 @@ These projects are driven by curiosity, experimentation, and a desire to build l
     The Shiny Edition is currently in development and may evolve in scope, form, or platform.
   </p>
 
-  <!-- External link -->
   <p style="margin-top: 12px;">
     🚀 <a href="https://friederikequint-shinychronicles-app.share.connect.posit.cloud"
           target="_blank" rel="noopener">
@@ -131,7 +126,6 @@ These projects are driven by curiosity, experimentation, and a desire to build l
     </a>
   </p>
 
-  <!-- Embedded Shiny app -->
   <div style="margin-top: 16px;">
     <iframe
       src="https://friederikequint-shinychronicles-app.share.connect.posit.cloud"
@@ -156,8 +150,22 @@ These projects are driven by curiosity, experimentation, and a desire to build l
     </p>
   </div>
 
+  <div style="margin-top: 16px;">
+    <p style="margin-bottom: 0;">
+      The full Shiny app codebase is available as a <strong>public GitHub repository</strong>.
+      The project is free to use, fork, and extend.
+    </p>
+
+    <p style="margin-top: 8px;">
+      🔗 <a href="https://github.com/friederikequint/ShinyChronicles-app"
+            target="_blank" rel="noopener">
+        View SanityApp Shiny Edition on GitHub
+      </a>
+    </p>
+  </div>
+
 </div>
 
 <p style="margin-top: 12px; font-style: italic; opacity: 0.8;">
-  Status: still exploring · Form: deliberately open · Confidence: curious
+  Status: happy, done for now, and still open for changes :)
 </p>
