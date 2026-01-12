@@ -99,7 +99,7 @@ These projects are driven by curiosity, experimentation, and a desire to build l
 
 <hr />
 
-<h3><strong>Project: ✨ SanityApp Shiny Edition ✨ </strong></h3>
+<h3><strong>Project: ✨ SanityApp Shiny Edition ✨</strong></h3>
 
 <div style="
   margin-top: 16px;
@@ -110,17 +110,51 @@ These projects are driven by curiosity, experimentation, and a desire to build l
 ">
 
   <p style="margin-top: 0;">
-    <strong>SanityApp Shiny Edition ✨</strong> is a Shiny extension of the original SanityApp, written with R,
+    <strong>SanityChronicles ✨</strong> is a Shiny extension of the original SanityApp, written with R,
     focused on richer and easier exploration, visualizations, and playful interaction with personal mood data.
   </p>
 
   <p>
-    This version offers an easier way of employing a mood-loggin App on your own device for personal usage, engaging with wellbeing data - including interactive views, summaries, and analysis-oriented representations.
+    This version offers an easier way of employing a mood-logging app on your own device for personal usage,
+    and for engaging with wellbeing data through interactive views, summaries, and analysis-oriented representations.
   </p>
 
   <p style="opacity: 0.85;">
     The Shiny Edition is currently in development and may evolve in scope, form, or platform.
   </p>
+
+  <!-- External link -->
+  <p style="margin-top: 12px;">
+    🚀 <a href="https://friederikequint-shinychronicles-app.share.connect.posit.cloud"
+          target="_blank" rel="noopener">
+      Open the Shiny App in a new tab
+    </a>
+  </p>
+
+  <!-- Embedded Shiny app -->
+  <div style="margin-top: 16px;">
+    <iframe
+      src="https://friederikequint-shinychronicles-app.share.connect.posit.cloud"
+      style="
+        width: 100%;
+        height: 720px;
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 12px;
+        background: white;
+      "
+      loading="lazy"
+      allow="clipboard-read; clipboard-write"
+    ></iframe>
+
+    <p style="
+      margin-top: 6px;
+      font-size: 0.85em;
+      opacity: 0.7;
+      text-align: right;
+    ">
+      If the embed feels cramped (especially on mobile), opening it in a new tab works best.
+    </p>
+  </div>
 
 </div>
 
