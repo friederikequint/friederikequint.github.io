@@ -20,7 +20,7 @@ Beyond this project, I am involved as a research collaborator in the Content Mod
 Across projects, my research combines survey experiments, observational data, and causal inference approaches, complemented by computational analyses, to better understand patterns of platform use and the social and political implications of content moderation systems.
 
 Alongside my academic work, I occasionally explore smaller, experimental side projects at the intersection of research, design, and tooling.  
-My two latest releases—two apps for mood tracking (iOS & Shiny R)—can be found here: [**Fun Projectsn**](/projectsforfun/).
+My two latest releases—two apps for mood tracking (iOS & Shiny R)—can be found here: [**Fun Projects**](/projectsforfun/).
 
 
 ## Research Interests
