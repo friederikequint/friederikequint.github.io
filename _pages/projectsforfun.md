@@ -165,6 +165,30 @@ These projects are driven by curiosity, experimentation, and a desire to build l
     </p>
   </div>
 
+  <!-- Screenshot example -->
+<div style="margin-top: 20px;">
+  <img
+    src="{{ '/assets/Example_Overview_ShinyChronicles.png' | relative_url }}"
+    alt="Example overview of the Sanity Chronicles Shiny app"
+    style="
+      width: 100%;
+      max-width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.08);
+    "
+  />
+
+  <p style="
+    margin-top: 6px;
+    font-size: 0.85em;
+    opacity: 0.7;
+    text-align: right;
+  ">
+    Example overview from the SanityApp Shiny Edition
+  </p>
+</div>
+
+
   <div style="margin-top: 16px;">
     <p style="margin-bottom: 0;">
       The full Shiny app codebase is available as a <strong>public GitHub repository</strong>.
