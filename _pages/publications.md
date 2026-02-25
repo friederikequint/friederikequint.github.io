@@ -5,15 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Current Projects
-
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. (2025). *Does the Community Understand the Community Guidelines?* (Under Review)
-
-**Quint, F.**, Theocharis, Y., Kosmidis, S., Gaafar, A., & Roberts, M. E. (2025). *Bystanders and Reporters: Who Acts Against Illegal Online Content?* (R&R)
-
---- 
-
 ## Peer-reviewed Papers
+
+**Quint, F.**, Theocharis, Y., Kosmidis, S., Gaafar, A., \& Roberts, M. E. (Forthcoming). 
+Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society
 
 Nahrgang, M., Weidmann, N. B., **Quint, F.**, Nagel, S., Theocharis, Y., & Roberts, M. E. (2025). *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
 Proceedings of the International AAAI Conference on Web and Social Media, 19(1), 1295-1314. [https://doi.org/10.1609/icwsm.v19i1.35873](https://doi.org/10.1609/icwsm.v19i1.35873){:target="_blank"}
@@ -28,3 +23,8 @@ Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, F
 
 
 
+## Current Projects
+
+**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. (2025). *Does the Community Understand the Community Guidelines?* (R&R)
+
+--- 
