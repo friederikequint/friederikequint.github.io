@@ -35,8 +35,7 @@ Alongside my academic work, I occasionally explore smaller, experimental side pr
 
 ### Recent publications
 
-**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. (Forthcoming). 
-Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society
+**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. (2026). Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society, 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
 
 Nahrgang, M., Weidmann, N. B., **Quint, F.**, Nagel, S., Theocharis, Y., & Roberts, M. E. (2025).
 *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*  
