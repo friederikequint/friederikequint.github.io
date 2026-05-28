@@ -32,11 +32,13 @@ Alongside my academic work, I occasionally explore smaller, experimental side pr
 
 
 
-### Recent publications
+### New Research
 
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. (Forthcoming) *Does the Community Understand the Community Guidelines?* Policy & Internet
+**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. (Forthcoming) Does the Community Understand the Community Guidelines?. _Policy & Internet_
 
-**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. (2026). Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society, 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
+**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. (2026). Bystanders and Reporters: Who Acts Against Illegal Online Content? _Social Media + Society_, 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
+
+Theocharis, Y., Kosmidis, S., Zilinsky, J., & **Quint, F.** (Forthcoming). Ideology and Free Speech Values Predict Content Moderation Preferences: Cross-national Evidence Across Targets of Hate Speech. _Scientific Reports_
 
 
 
