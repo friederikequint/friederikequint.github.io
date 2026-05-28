@@ -28,7 +28,7 @@ Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, F
 
 ## Work in Progress
 
-Pradel, F., **Quint, F.**, Kosmidis, S., & Theocharis, T. Systemic Toxicity Inference Predicts Withdrawal Across 10 Democracies
+Pradel, F., **Quint, F.**, Kosmidis, S., & Theocharis, Y. Systemic Toxicity Inference Predicts Withdrawal Across 10 Democracies
 
 **Quint, F.** Loud Minorities, Silent Majorities: Lurking as a Mode of Social Media Use
 
