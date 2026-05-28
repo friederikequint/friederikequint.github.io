@@ -26,7 +26,9 @@ Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, F
 
 
 
-## Current Projects
+## Work in Progress
+
+Pradel, F.,** Quint, F** & Theocharis, T. Systemic Toxicity Inference Drives Discourse Withdrawal Across 10 Democracies
 
 **Quint, F.** Loud Minorities, Silent Majorities: Lurking as a Mode of Social Media Use
 
