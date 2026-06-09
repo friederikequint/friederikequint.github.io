@@ -35,4 +35,5 @@ Pradel, F., **Quint, F.**, Kosmidis, S., & Theocharis, Y. Systemic Toxicity Infe
 **Quint, F.** Loud Minorities, Silent Majorities: Lurking as a Mode of Social Media Use
 
 **Quint, F.**\*, Asimovic, N.\*, Zilinsky, J., Singh, L., Bode, L., & Theocharis, Y. Political Communication in a Fragmented Platform Ecosystem
+
 --- 
