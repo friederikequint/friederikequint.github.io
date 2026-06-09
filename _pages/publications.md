@@ -32,7 +32,7 @@ Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, F
 
 Pradel, F., **Quint, F.**, Kosmidis, S., & Theocharis, Y. Systemic Toxicity Inference Predicts Withdrawal Across 10 Democracies
 
-**Quint, F.** Loud Minorities, Silent Majorities: Lurking as a Mode of Social Media Use
+**Quint, F.** Loud Minorities, Silent Majorities: Political Efficacy, Platform Pessimism, and Who Stays Silent on Social Media
 
 **Quint, F.**\*, Asimovic, N.\*, Zilinsky, J., Singh, L., Bode, L., & Theocharis, Y. Political Communication in a Fragmented Platform Ecosystem
 
