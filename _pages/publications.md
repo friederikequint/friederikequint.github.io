@@ -10,7 +10,7 @@ author_profile: true
 Nahrgang, M., Weidmann, N. B., **Quint, F.**, Nagel, S., Theocharis, Y., & Roberts, M. E. 2025. *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
 Proceedings of the International AAAI Conference on Web and Social Media, 19(1), 1295-1314. [https://doi.org/10.1609/icwsm.v19i1.35873](https://doi.org/10.1609/icwsm.v19i1.35873){:target="_blank"}
 
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. 2026. “Does the Community Understand the Community Guidelines?.” Policy & Internet. 18: e70045. https://doi.org/10.1002/poi3.70045{:target="_blank"}
+**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. 2026. “Does the Community Understand the Community Guidelines?.” Policy & Internet. 18: e70045. [https://doi.org/10.1002/poi3.70045](https://doi.org/10.1002/poi3.70045){:target="_blank"}
 
 **Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. 2026. Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society, 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
 
