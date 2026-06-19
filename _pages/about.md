@@ -34,9 +34,9 @@ Alongside my academic work, I occasionally explore smaller, experimental side pr
 
 ### New Research
 
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. 2026. “Does the Community Understand the Community Guidelines?.” Policy & Internet18: e70045. [https://doi.org/10.1002/poi3.70045](https://doi.org/10.1002/poi3.70045){:target="_blank"}
+**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. 2026. “Does the Community Understand the Community Guidelines?.” Policy & Internet. 18: e70045. [https://doi.org/10.1002/poi3.70045](https://doi.org/10.1002/poi3.70045){:target="_blank"}
 
-**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. 2026. Bystanders and Reporters: Who Acts Against Illegal Online Content? _Social Media + Society_, 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
+**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. 2026. Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society. 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
 
 Theocharis, Y., Kosmidis, S., Zilinsky, J., & **Quint, F.** 2026. Ideology and free speech values predict content moderation preferences: cross-national evidence across targets of hate speech. Sci Rep 16, 19034 (2026).  [https://doi.org/10.1038/s41598-026-56054-y](https://doi.org/10.1038/s41598-026-56054-y){:target="_blank"} 
 
