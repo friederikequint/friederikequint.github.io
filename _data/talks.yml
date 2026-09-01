@@ -3,14 +3,6 @@
 # Set `workshop: true` on anything that should also appear in the Workshops
 # section of the Teaching page. Nothing is duplicated by hand.
 
-- date: "Oct 2026"
-  title: "Invited talk at the Social Media Observatory, hosted by Prof. Andreu Casas"
-  meta: "University of Oxford · Online"
-
-- date: "Jul 2026"
-  title: "Invited guest lecture in Prof. Yannis Theocharis’ course “Social Media, Content Moderation, and Digital Governance”"
-  meta: "Technical University of Munich · Munich, Germany"
-
 - date: "May 2026"
   title: "Invited talk to Prof. Lasse Lindekilde’s ERC group “STANDBY”"
   meta: "Aarhus University · Aarhus, Denmark"
