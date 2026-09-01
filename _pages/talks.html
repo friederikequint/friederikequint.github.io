@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks & Presentations"
+title: "Invited Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -9,35 +9,25 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-{%- comment -%}
-Define the years you want to show, in descending order.
-You can change or extend this list as needed.
-{%- endcomment -%}
-{% assign years = "2025,2024" | split: "," %}
+<h1>Invited Talks</h1>
+{% assign talks_only = site.talks | where: "type", "Invited Talk" | sort: "date" %}
+{% assign talks_by_year = talks_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
+{% for year in talks_by_year %}
+  <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
+  {% assign items_sorted = year.items | sort: "date" | reverse %}
+  {% for post in items_sorted %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endfor %}
 
-{%- for year in years -%}
-  {%- comment -%} Filter posts for this year {% endcomment -%}
-  {% assign posts_for_year = site.talks | where_exp: "post", "post.date | date: '%Y' == year" %}
-  {% if posts_for_year.size > 0 %}
-    <h2>{{ year }}</h2>
-
-    {%- comment -%} Talks in this year {% endcomment -%}
-    {% assign talks_for_year = posts_for_year | where: "type", "Talk" %}
-    {% if talks_for_year.size > 0 %}
-      <h3>Talks</h3>
-      {% for post in talks_for_year reversed %}
-        {% include archive-single-talk.html %}
-      {% endfor %}
-    {% endif %}
-
-    {%- comment -%} Presentations in this year {% endcomment -%}
-    {% assign pres_for_year = posts_for_year | where: "type", "Presentation" %}
-    {% if pres_for_year.size > 0 %}
-      <h3>Presentations</h3>
-      {% for post in pres_for_year reversed %}
-        {% include archive-single-talk.html %}
-      {% endfor %}
-    {% endif %}
-  {% endif %}
-{%- endfor -%}
+<h1 style="margin-top: 2.5em;">Presentations</h1>
+{% assign pres_only = site.talks | where: "type", "Presentation" | sort: "date" %}
+{% assign pres_by_year = pres_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
+{% for year in pres_by_year %}
+  <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
+  {% assign items_sorted = year.items | sort: "date" | reverse %}
+  {% for post in items_sorted %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endfor %}
 

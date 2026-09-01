@@ -5,7 +5,6 @@ type: "Presentation"
 permalink: /talks/test-talk-4
 date: September 7, 2024
 location: "Philadelphia, USA"
-link: https://x.com/FriederikeQ/status/1832905589149577421 
 ---
 
 

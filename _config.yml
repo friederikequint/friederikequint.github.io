@@ -34,13 +34,13 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=9AANKIQAAAAJ&hl=de"
   inspire-hep      :
   impactstory      :
   orcid            : "https://orcid.org/0009-0006-7158-1369"
   semantic         :
   pubmed           :
-  researchgate     :
+  researchgate     : "https://www.researchgate.net/profile/Friederike-Quint?ev=hdr_xprf"
   scopus           :
 
   # Repositories and software development
@@ -86,6 +86,7 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

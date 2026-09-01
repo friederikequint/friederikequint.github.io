@@ -3,19 +3,21 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
   - title: "Media"
     url: /media/
 
-  - title: "Talks & Presentations"
+  - title: "Invited Talks & Presentations"
+
     url: /talks/  
 
   - title: "Teaching & Workshops"
     url: /teaching/   
 
-    
+  - title: "Fun Projects"
+    url: /projectsforfun/   
 
 
   
