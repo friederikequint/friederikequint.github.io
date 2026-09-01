@@ -3,13 +3,8 @@ layout: quint
 nav_key: about
 title: "About"
 permalink: /
-description: "Friederike Quint studies how online platforms govern speech and how users perceive, interpret and respond to content moderation."
+description: "I study how online platforms govern speech and how users perceive, interpret and respond to content moderation."
 ---
-
-<div class="q-herohead">
-  <div class="q-kicker">Incoming Postdoctoral Researcher at the Social Media Observatory, University of Oxford</div>
-  <h1>Platforms govern speech. People take part, push back, or go <em>quiet</em>.</h1>
-</div>
 
 <div class="q-hero">
   <div class="q-portrait">
@@ -46,8 +41,9 @@ description: "Friederike Quint studies how online platforms govern speech and ho
 </div>
 
 <div class="q-prose">
-  <p>I have submitted my dissertation and will join the Social Media Observatory at the University of Oxford, across DPIR and the Oxford Internet Institute, as an incoming postdoc in November. Until then I am a research associate at the Chair of Digital Governance at the Technical University of Munich, where my work sits within the project <em>Transparency in Content Moderation</em>: how moderation rules are designed, communicated, and understood in practice, and how these processes shape user behavior and trust in platform governance.</p>
+  <p>I have recently submitted my dissertation and have been a research associate at the Chair of Digital Governance at the Technical University of Munich, where my work sits within the project <em>Transparency in Content Moderation</em>, which asks how moderation rules are designed, communicated, and understood in practice, and how these processes shape user behavior and trust in platform governance.</p>
   <p>Further, I am involved as a research collaborator in the Content Moderation Lab, incubated at the TUM Think Tank. Across projects, my research combines survey experiments, observational data, and causal inference approaches, complemented by computational analyses.</p>
+  <p class="q-tease">The next chapter starts in November. More on that here soon.</p>
 </div>
 
 <section class="q-section">
