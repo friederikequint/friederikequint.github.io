@@ -9,10 +9,6 @@ supervision:
     meta: "Technical University of Munich · Supervising student theses (B.Sc., M.Sc.)"
 
 guest_lectures:
-  - date: "Jul 2026"
-    title: "Guest lecture in “Social Media, Content Moderation, and Digital Governance” (Prof. Yannis Theocharis)"
-    meta: "Technical University of Munich"
-
   - date: "Oct 2025"
     title: "Guest lecture “Bystanders and Reporters: Who Acts Against Illegal Online Content?” in “Media, Technology and Politics in Comparative Perspective” (Prof. Holli A. Semetko)"
     meta: "Emory University, Atlanta"
