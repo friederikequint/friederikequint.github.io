@@ -1,0 +1,75 @@
+# Peer-reviewed articles and the research report.
+#
+# To add a paper, copy a block and fill it in. Nothing else needs editing.
+#   authors      may contain <b>…</b> to bold your own name
+#   cover        a file in images/covers/ ; omit for no cover tile
+#   pdf          a file in papers/       ; omit to hide the PDF link
+#   replication  a URL                   ; omit and the link is left out
+#   link_label   overrides the "DOI →" label on the first link
+#   featured     true puts it on the About page shelf as well
+
+peer_reviewed:
+  - title: "Does the Community Understand the Community Guidelines?"
+    authors: "<b>Quint, F.</b>, Theocharis, Y., Nahrgang, M., Weidmann, N., &amp; Roberts, M. E."
+    short_authors: "Quint, Theocharis, Nahrgang, Weidmann &amp; Roberts"
+    venue: "Policy &amp; Internet 18(2): e70045"
+    short_venue: "Policy &amp; Internet 18(2), 2026"
+    year: 2026
+    doi: "https://doi.org/10.1002/poi3.70045"
+    pdf: "/papers/Quint-2026-Community-Guidelines-Policy-and-Internet.pdf"
+    cover: "/images/covers/policy-internet.jpg"
+    cover_alt: "Cover of the Policy &amp; Internet article"
+    replication:            # TODO: add the replication data URL
+    featured: true
+
+  - title: "Bystanders and Reporters: Who Acts Against Illegal Online Content?"
+    authors: "<b>Quint, F.</b>, Theocharis, Y., Kosmidis, S., &amp; Roberts, M. E."
+    short_authors: "Quint, Theocharis, Kosmidis &amp; Roberts"
+    venue: "Social Media + Society 12(2)"
+    short_venue: "Social Media + Society 12(2), 2026"
+    year: 2026
+    doi: "https://doi.org/10.1177/20563051261437497"
+    pdf: "/papers/Quint-2026-Bystanders-and-Reporters-SMS.pdf"
+    cover: "/images/covers/sm-society.jpg"
+    cover_alt: "Cover of the Social Media + Society article"
+    replication:            # TODO: add the replication data URL
+    featured: true
+
+  - title: "Ideology and Free Speech Values Predict Content Moderation Preferences: Cross-national Evidence Across Targets of Hate Speech"
+    authors: "Theocharis, Y., Kosmidis, S., Zilinsky, J., &amp; <b>Quint, F.</b>"
+    short_authors: "Theocharis, Kosmidis, Zilinsky &amp; Quint"
+    venue: "Scientific Reports 16, 19034"
+    short_venue: "Scientific Reports 16, 19034, 2026"
+    short_title: "Ideology and Free Speech Values Predict Content Moderation Preferences"
+    year: 2026
+    doi: "https://doi.org/10.1038/s41598-026-56054-y"
+    pdf: "/papers/Theocharis-2026-Ideology-Free-Speech-Scientific-Reports.pdf"
+    cover: "/images/covers/sci-reports.jpg"
+    cover_alt: "Cover of the Scientific Reports article"
+    replication:            # TODO: add the replication data URL
+    featured: true
+
+  - title: "Written for Lawyers or Users? Mapping the Complexity of Community Guidelines"
+    authors: "Nahrgang, M., Weidmann, N. B., <b>Quint, F.</b>, Nagel, S., Theocharis, Y., &amp; Roberts, M. E."
+    short_authors: "Nahrgang, Weidmann, Quint, Nagel, Theocharis &amp; Roberts"
+    venue: "Proceedings of ICWSM 19(1), 1295–1314"
+    short_venue: "ICWSM 19(1), AAAI, 2025"
+    year: 2025
+    doi: "https://doi.org/10.1609/icwsm.v19i1.35873"
+    pdf: "/papers/Nahrgang-2025-Written-for-Lawyers-or-Users-ICWSM.pdf"
+    cover: "/images/covers/icwsm.jpg"
+    cover_alt: "Cover of the ICWSM proceedings paper"
+    replication:            # TODO: add the replication data URL
+    featured: true
+
+reports:
+  - title: "Content Warning: Public Attitudes on Content Moderation and Freedom of Expression"
+    authors: "Theocharis, Y., Kosmidis, S., Zilinsky, J., <b>Quint, F.</b>, &amp; Pradel, F."
+    venue: "Research report, 2025"
+    note: "Covered in Süddeutsche Zeitung, ZDFheute, La Vanguardia, Handelszeitung and Salzburger Nachrichten."
+    year: 2025
+    doi: "https://osf.io/s3kcw"
+    link_label: "Read on OSF →"
+    pdf: "/papers/Content-Warning-Report-2025.pdf"
+    cover: "/images/covers/content-warning.jpg"
+    cover_alt: "Cover of the Content Warning report"
