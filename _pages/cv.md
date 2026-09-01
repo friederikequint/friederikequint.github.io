@@ -3,14 +3,14 @@ layout: quint
 nav_key: cv
 title: "CV"
 permalink: /cv/
-description: "Education, appointments, training and references. The full record is in the PDF."
+description: "Education, appointments, training and references."
 redirect_from:
   - /resume
 ---
 
 <div class="q-pagehead">
   <div class="q-kicker">Curriculum vitae</div>
-  <h1>Education, appointments, training, and references. The full record is in the PDF.</h1>
+  <h1>Education, appointments, training, and references.</h1>
 </div>
 
 <div class="q-cta">
@@ -54,40 +54,3 @@ redirect_from:
   {%- endfor %}
 </section>
 
-<section class="q-section">
-  <div class="q-shead"><h2>Additional training</h2></div>
-  {%- for e in site.data.cv.training %}
-  <div class="q-entry">
-    <div class="q-entry-date">{{ e.date }}</div>
-    <div>
-      <h4>{{ e.title }}</h4>
-      <div class="q-entry-meta">{{ e.meta }}</div>
-    </div>
-  </div>
-  {%- endfor %}
-</section>
-
-<section class="q-section">
-  <div class="q-shead"><h2>Languages &amp; skills</h2></div>
-  <div class="q-grid-3">
-    {%- for s in site.data.cv.skills %}
-    <div>
-      <div class="q-sublabel">{{ s.label }}</div>
-      <p>{{ s.body }}</p>
-    </div>
-    {%- endfor %}
-  </div>
-</section>
-
-<section class="q-section">
-  <div class="q-shead"><h2>Academic references</h2></div>
-  <div class="q-cards-2">
-    {%- for r in site.data.cv.references %}
-    <div class="q-ref">
-      <h4>{{ r.name }}</h4>
-      <p>{{ r.affiliation }}</p>
-      <a href="mailto:{{ r.email }}">{{ r.email }}</a>
-    </div>
-    {%- endfor %}
-  </div>
-</section>
