@@ -3,13 +3,8 @@ layout: quint
 nav_key: research
 title: "Research"
 permalink: /publications/
-description: "Peer-reviewed articles, research reports and work in progress on platform governance, content moderation and political communication."
+description: "Peer-reviewed articles, research reports and work in progress."
 ---
-
-<div class="q-pagehead">
-  <div class="q-kicker">Research</div>
-  <h1>Platforms govern speech. People take part, push back, or go quiet.</h1>
-</div>
 
 <section class="q-section">
   <div class="q-shead"><h2>Peer-reviewed articles</h2></div>
