@@ -1,0 +1,24 @@
+# Teaching page content.
+# The Workshops section is NOT listed here: it is generated from the entries in
+# _data/talks.yml that carry `workshop: true`, so a workshop is only ever
+# written once.
+
+supervision:
+  - date: "2025 – 2026"
+    title: "Supervisor for Bachelor’s and Master’s theses, Politics &amp; Technology"
+    meta: "Technical University of Munich · Supervising student theses (B.Sc., M.Sc.)"
+
+guest_lectures:
+  - date: "Jul 2026"
+    title: "Guest lecture in “Social Media, Content Moderation, and Digital Governance” (Prof. Yannis Theocharis)"
+    meta: "Technical University of Munich"
+
+  - date: "Oct 2025"
+    title: "Guest lecture “Bystanders and Reporters: Who Acts Against Illegal Online Content?” in “Media, Technology and Politics in Comparative Perspective” (Prof. Holli A. Semetko)"
+    meta: "Emory University, Atlanta"
+
+reviewing:
+  - "Political Science Research and Methods"
+  - "Journal of Experimental Political Science"
+  - "Journal of Quantitative Description: Digital Media"
+  - "Humanities and Social Science Communications"

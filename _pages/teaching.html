@@ -1,32 +1,67 @@
 ---
-layout: archive
+layout: quint
+nav_key: teaching
 title: "Teaching & Workshops"
 permalink: /teaching/
-author_profile: true
+description: "Thesis supervision, guest lectures, workshops and journal reviewing."
 ---
 
-{% include base_path %}
+<div class="q-pagehead">
+  <div class="q-kicker">Teaching &amp; supervision</div>
+  <h1>Supervising theses on politics and technology, and teaching on content moderation and digital governance.</h1>
+</div>
 
+<section class="q-section">
+  <div class="q-shead"><h2>Supervision</h2></div>
+  {%- for s in site.data.teaching.supervision %}
+  <div class="q-entry">
+    <div class="q-entry-date">{{ s.date }}</div>
+    <div>
+      <h4>{{ s.title }}</h4>
+      <div class="q-entry-meta">{{ s.meta }}</div>
+    </div>
+  </div>
+  {%- endfor %}
+</section>
 
-<ul>
-  {% for post in site.teaching reversed %}
-    <li>
-      {% if post.link %}
-        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
-      {% else %}
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      {% endif %}
-      {% if post.date_display %}
-        <small>({{ post.date_display }})</small>
-      {% else %}
-        <small>({{ post.date | date: "%B %d, %Y" }})</small>
-      {% endif %}
-      {% if post.location %}
-        <p><strong>Location:</strong> {{ post.location }}</p>
-      {% endif %}
-      {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+<section class="q-section">
+  <div class="q-shead"><h2>Guest lectures</h2></div>
+  {%- for g in site.data.teaching.guest_lectures %}
+  <div class="q-entry">
+    <div class="q-entry-date">{{ g.date }}</div>
+    <div>
+      <h4>{{ g.title }}</h4>
+      <div class="q-entry-meta">{{ g.meta }}</div>
+    </div>
+  </div>
+  {%- endfor %}
+</section>
+
+{%- comment -%}
+  Workshops are pulled from _data/talks.yml where `workshop: true`, so they
+  appear here and on the Talks page without being written out twice.
+{%- endcomment -%}
+<section class="q-section">
+  <div class="q-shead">
+    <h2>Workshops</h2>
+    <a class="q-kicker q-kicker--accent" href="{{ '/talks/' | relative_url }}">All talks →</a>
+  </div>
+  {%- for w in site.data.talks %}{% if w.workshop %}
+  <div class="q-entry">
+    <div class="q-entry-date">{{ w.date }}</div>
+    <div>
+      <h4>{{ w.title }}</h4>
+      <div class="q-entry-meta">{{ w.meta }}</div>
+    </div>
+  </div>
+  {%- endif %}{% endfor %}
+</section>
+
+<section class="q-section">
+  <div class="q-shead"><h2>Reviewing</h2></div>
+  <div class="q-pillrow">
+    {%- for j in site.data.teaching.reviewing %}
+    <span>{{ j }}</span>
+    {%- endfor %}
+  </div>
+</section>

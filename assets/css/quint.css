@@ -1,0 +1,374 @@
+/* ------------------------------------------------------------------
+   friederikequint.github.io — 2026 redesign
+   Palette and type scale from HANDOFF.md (option "c1", bone, no grain).
+   Edit a colour once here and it changes everywhere.
+   ------------------------------------------------------------------ */
+
+:root{
+  --page:      #F7F6F3;   /* page background            */
+  --surface:   #FFFFFF;   /* cards, profile-link band   */
+  --sage-tint: #EEF0EB;   /* secondary surface          */
+  --rule:      #E3E1DC;   /* rules and borders          */
+  --chip:      #DAD8D2;   /* chip border                */
+  --text:      #1F1F22;   /* text                       */
+  --text-2:    #54545A;   /* secondary text             */
+  --muted:     #8E8E93;   /* muted text                 */
+  --accent:    #3F5A45;   /* links, buttons             */
+  --accent-d:  #2B3D30;   /* accent hover / dark        */
+  --sage:      #5B7A61;   /* nav underline, spine rails */
+  --pop:       #8C4A63;   /* surname, one hero word, row hover */
+  --arch:      #AFBFB1;   /* portrait arch outline      */
+
+  --maxw: 1080px;
+  --gutter: 60px;
+  --section: 58px;
+}
+
+*{box-sizing:border-box}
+
+html{-webkit-text-size-adjust:100%}
+
+body{
+  margin:0;
+  background:var(--page);
+  color:var(--text);
+  font-family:Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+
+a{color:var(--accent);text-decoration:none}
+a:hover{color:var(--accent-d)}
+img{max-width:100%}
+
+.q-wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.q-skip{position:absolute;left:-9999px}
+.q-skip:focus{left:8px;top:8px;background:var(--surface);padding:10px 14px;border-radius:8px;z-index:10}
+
+/* ---------- top bar ---------------------------------------------- */
+
+.q-topbar{border-bottom:1px solid var(--rule)}
+.q-topbar-in{height:80px;display:flex;align-items:center;justify-content:space-between;gap:40px}
+
+.q-brand{
+  font-size:26px;font-weight:400;letter-spacing:-.005em;
+  white-space:nowrap;flex:none;color:var(--text);
+}
+.q-brand:hover{color:var(--text)}
+.q-brand b{color:var(--pop);font-weight:500}
+
+.q-nav{display:flex;align-items:center;gap:24px}
+/* :not(...) keeps these rules off the CV and Contact buttons, which would
+   otherwise win on specificity and grey out the button labels. */
+.q-nav a:not(.q-btn):not(.q-btn-ghost){white-space:nowrap;font-size:13.5px;color:var(--text-2);font-weight:400}
+.q-nav a:not(.q-btn):not(.q-btn-ghost):hover{color:var(--text)}
+.q-nav a.is-current{color:var(--text);font-weight:500;padding-bottom:3px;border-bottom:2px solid var(--sage)}
+
+.q-btn-ghost{
+  white-space:nowrap;font-size:12.5px;color:var(--accent);font-weight:500;
+  border:1px solid var(--accent);background:transparent;border-radius:999px;padding:10px 18px;
+}
+.q-btn-ghost:hover{background:var(--sage-tint);color:var(--accent-d)}
+
+.q-btn{
+  white-space:nowrap;font-size:12.5px;font-weight:500;color:#fff;
+  background:var(--accent);border-radius:999px;padding:10px 19px;
+}
+.q-btn:hover{background:var(--accent-d);color:#fff}
+
+/* menu toggle, only used below the breakpoint */
+.q-menu-toggle{position:absolute;opacity:0;pointer-events:none;width:0;height:0}
+.q-menu-btn{
+  display:none;align-items:center;gap:8px;cursor:pointer;
+  font-size:12.5px;font-weight:500;color:var(--accent);
+  border:1px solid var(--accent);border-radius:999px;padding:10px 16px;
+}
+.q-menu-btn:hover{background:var(--sage-tint)}
+
+/* ---------- profile link row ------------------------------------- */
+
+.q-profilebar{border-bottom:1px solid var(--rule);background:var(--surface)}
+.q-profilebar-in{
+  min-height:42px;display:flex;align-items:center;justify-content:flex-end;
+  gap:22px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px;
+}
+.q-profilebar a{white-space:nowrap;font-size:12.5px;color:var(--text-2);font-weight:300}
+.q-profilebar a:hover{color:var(--text)}
+
+/* ---------- page head -------------------------------------------- */
+
+.q-kicker{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.q-kicker--accent{color:var(--accent)}
+
+.q-pagehead{padding:64px 0 34px;border-bottom:1px solid var(--rule)}
+.q-pagehead h1{font-size:34px;font-weight:300;letter-spacing:-.025em;margin:12px 0 0;max-width:34ch;line-height:1.2;text-wrap:pretty}
+
+.q-herohead{padding:72px 0 34px;border-bottom:1px solid var(--rule)}
+.q-herohead h1{font-size:58px;line-height:1.08;font-weight:300;letter-spacing:-.03em;margin:20px 0 0;max-width:20ch;text-wrap:pretty}
+.q-herohead h1 em{font-style:normal;font-weight:400;color:var(--pop)}
+
+/* ---------- hero -------------------------------------------------- */
+
+.q-hero{display:grid;grid-template-columns:264px 1fr;gap:56px;padding:44px 0 0;align-items:start}
+
+.q-portrait{position:relative;height:330px}
+.q-portrait-outline{position:absolute;left:14px;top:14px;right:-14px;bottom:-14px;border:1px solid var(--arch);border-radius:132px 132px 8px 8px}
+.q-portrait-img{position:absolute;inset:0;border-radius:132px 132px 8px 8px;overflow:hidden;background:var(--sage-tint)}
+.q-portrait-img img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+
+.q-lede{font-size:17px;line-height:1.7;color:var(--text-2);margin:0;max-width:52ch;font-weight:300}
+
+.q-chips{display:flex;gap:9px;margin-top:24px;flex-wrap:wrap}
+.q-chips span{
+  font-size:12.5px;color:var(--text);background:var(--surface);
+  border:1px solid var(--rule);border-radius:999px;padding:8px 15px;font-weight:400;
+}
+
+.q-now{margin-top:30px;border-top:1px solid var(--rule)}
+.q-now-row{display:grid;grid-template-columns:96px 1fr 132px;gap:20px;padding:14px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.q-now-label{font-size:11.5px;color:var(--muted)}
+.q-now-title{font-size:14.5px;font-weight:400;line-height:1.4}
+.q-now-meta{font-size:11.5px;color:var(--text-2);text-align:right}
+.q-now-meta--accent{color:var(--accent);font-weight:500}
+
+.q-prose{margin-top:var(--section);border-top:1px solid var(--rule);padding-top:28px;max-width:76ch}
+.q-prose p{font-size:15px;line-height:1.75;color:var(--text-2);margin:0;font-weight:300}
+.q-prose p + p{margin-top:16px}
+
+/* ---------- sections ---------------------------------------------- */
+
+.q-section{margin-top:var(--section)}
+.q-shead{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:22px;gap:24px;flex-wrap:wrap}
+.q-shead--tight{margin-bottom:14px}
+.q-shead h2{font-size:28px;font-weight:300;letter-spacing:-.02em;margin:0}
+
+.q-pillrow{display:flex;gap:9px;flex-wrap:wrap;padding-top:4px}
+.q-pillrow span{
+  font-size:12.5px;color:var(--text);background:var(--surface);
+  border:1px solid var(--rule);border-radius:999px;padding:8px 15px;font-weight:400;
+}
+
+/* ---------- cover shelf (About) ----------------------------------- */
+
+.q-shelf{
+  display:flex;gap:16px;overflow-x:auto;
+  scroll-snap-type:x mandatory;scroll-padding-left:var(--gutter);
+  padding:2px var(--gutter) 18px;margin:0 calc(var(--gutter) * -1);
+  scrollbar-width:thin;scrollbar-color:var(--sage) var(--rule);
+}
+.q-shelf-card{
+  width:276px;flex:none;border-radius:12px;scroll-snap-align:start;color:var(--text);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.q-shelf-card:hover{transform:translateY(-6px);box-shadow:0 22px 40px -26px rgba(28,28,30,.42);color:var(--text)}
+.q-cover{display:flex;height:326px}
+.q-cover-spine{width:5px;flex:none;background:var(--sage);border-radius:3px 0 0 3px}
+.q-cover-img{flex:1;border-radius:0 6px 6px 0;overflow:hidden;background:var(--sage-tint);border:1px solid rgba(28,28,30,.10);border-left:none}
+.q-cover-img img{width:100%;height:100%;object-fit:cover;object-position:50% 0;display:block}
+.q-shelf-meta{font-size:11px;color:var(--text-2);margin-top:12px;line-height:1.5;font-weight:300}
+.q-shelf-meta b{display:block;color:var(--text);font-weight:500;font-size:12px;margin-bottom:3px;line-height:1.35}
+.q-shelf-foot{
+  display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  margin-top:10px;padding-top:9px;border-top:1px solid var(--rule);
+  font-size:10.5px;color:var(--text-2);font-weight:300;
+}
+.q-shelf-foot b{color:var(--accent);font-weight:500}
+
+/* ---------- media cards (About) ----------------------------------- */
+
+.q-cards-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.q-card{
+  background:var(--surface);border:1px solid var(--rule);border-radius:18px;padding:24px;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.q-card:hover{transform:translateY(-4px);box-shadow:0 22px 46px -28px rgba(28,28,30,.38)}
+.q-card h4{font-size:18px;font-weight:400;line-height:1.32;margin:9px 0 0}
+.q-card p{font-size:12.5px;color:var(--text-2);margin:9px 0 0;line-height:1.6;font-weight:300}
+
+.q-tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
+.q-tags i{
+  font-style:normal;white-space:nowrap;flex:none;font-size:10.5px;color:var(--text-2);
+  border:1px solid var(--rule);border-radius:5px;padding:5px 9px;background:var(--page);
+}
+
+/* ---------- publication rows (Research) --------------------------- */
+
+.q-paper{
+  display:grid;grid-template-columns:86px 1fr 108px;gap:22px;padding:22px 0;
+  border-bottom:1px solid var(--rule);align-items:start;
+  transition:background .15s ease, box-shadow .15s ease;
+}
+.q-paper--first{border-top:1px solid var(--rule)}
+.q-paper:hover{box-shadow:inset 3px 0 0 var(--pop);background:rgba(140,74,99,.05)}
+
+.q-thumb{display:flex;height:112px;transition:transform .18s ease, box-shadow .18s ease}
+.q-thumb:hover{transform:translateY(-3px);box-shadow:0 14px 26px -18px rgba(28,28,30,.55)}
+.q-thumb-spine{width:4px;flex:none;background:var(--sage);border-radius:2px 0 0 2px}
+.q-thumb-img{flex:1;border-radius:0 4px 4px 0;overflow:hidden;background:var(--sage-tint);border:1px solid rgba(28,28,30,.10);border-left:none}
+.q-thumb-img img{width:100%;height:100%;object-fit:cover;object-position:50% 0;display:block}
+
+.q-paper h3{font-size:19px;font-weight:400;line-height:1.35;letter-spacing:-.012em;margin:0}
+.q-authors{font-size:12.5px;color:var(--text-2);margin-top:9px;font-weight:300}
+.q-authors b{font-weight:500;color:var(--text)}
+.q-venue{font-size:12.5px;color:var(--accent);margin-top:7px;font-weight:400}
+.q-note{font-size:12.2px;color:var(--text-2);margin-top:8px;font-weight:300;line-height:1.6}
+.q-links{display:flex;gap:15px;margin-top:13px;flex-wrap:wrap}
+.q-links a{white-space:nowrap;flex:none;font-size:11.5px;color:var(--text-2);font-weight:300}
+.q-links a:hover{color:var(--text)}
+.q-links a.q-primary{color:var(--accent);font-weight:500}
+.q-links a.q-primary:hover{color:var(--accent-d)}
+.q-year{font-size:11.5px;color:var(--muted);text-align:right;padding-top:4px}
+
+/* ---------- work in progress -------------------------------------- */
+
+.q-wip{border-top:1px solid var(--rule)}
+.q-wip-row{display:grid;grid-template-columns:1fr 130px;gap:24px;padding:16px 0;border-bottom:1px solid var(--rule);align-items:start}
+.q-wip-row h4{font-size:17.5px;font-weight:400;line-height:1.32;margin:0}
+.q-wip-authors{font-size:12.2px;color:var(--text-2);margin-top:6px;font-weight:300}
+.q-wip-authors b{font-weight:500;color:var(--text)}
+.q-status{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-2);text-align:right;padding-top:4px}
+
+/* ---------- dated entry rows (Talks, Teaching, CV) ---------------- */
+
+.q-entry{display:grid;grid-template-columns:104px 1fr;gap:22px;padding:16px 0;border-bottom:1px solid var(--rule);align-items:start}
+.q-entry-date{font-size:12px;color:var(--muted);font-weight:300;padding-top:4px}
+.q-entry h4{font-size:17px;font-weight:400;line-height:1.34;margin:0;text-wrap:pretty}
+.q-entry-meta{font-size:12.2px;color:var(--text-2);margin-top:6px;font-weight:300;line-height:1.55}
+
+/* ---------- CV extras --------------------------------------------- */
+
+.q-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:40px}
+.q-btn-lg{
+  display:inline-flex;flex:none;white-space:nowrap;align-items:center;gap:10px;
+  background:var(--accent);color:#fff;border-radius:999px;padding:14px 24px;font-size:13.5px;font-weight:500;
+}
+.q-btn-lg:hover{background:var(--accent-d);color:#fff}
+.q-btn-lg-ghost{
+  display:inline-flex;flex:none;white-space:nowrap;align-items:center;gap:10px;
+  color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:13px 22px;font-size:13.5px;font-weight:500;
+}
+.q-btn-lg-ghost:hover{background:var(--sage-tint)}
+.q-updated{font-size:11.5px;color:var(--muted);font-weight:300}
+
+.q-grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;border-top:1px solid var(--rule);padding-top:22px}
+.q-sublabel{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.q-grid-3 p{font-size:14px;line-height:1.7;color:var(--text-2);margin:8px 0 0;font-weight:300}
+
+.q-ref{background:var(--surface);border:1px solid var(--rule);border-radius:18px;padding:22px 24px}
+.q-ref h4{font-size:17px;font-weight:400;margin:0}
+.q-ref p{font-size:12.8px;color:var(--text-2);margin:8px 0 0;font-weight:300;line-height:1.6}
+.q-ref a{display:inline-block;font-size:12.5px;font-weight:500;color:var(--accent);margin-top:10px}
+
+/* ---------- Fun Projects ------------------------------------------ */
+
+.q-intro{max-width:72ch;margin-top:44px;display:flex;flex-direction:column;gap:14px}
+.q-intro p{font-size:16px;line-height:1.75;color:var(--text-2);margin:0;font-weight:300}
+.q-intro a{color:var(--accent);font-weight:400}
+.q-disclaimer{font-size:13px;line-height:1.7;color:var(--muted);margin:4px 0 0;font-weight:300}
+
+.q-projects{margin-top:52px;display:flex;flex-direction:column;gap:20px}
+.q-project{
+  background:var(--surface);border:1px solid var(--rule);border-radius:18px;padding:26px 28px;
+  display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start;
+}
+.q-project h3{font-size:23px;font-weight:400;letter-spacing:-.015em;line-height:1.28;margin:10px 0 0}
+.q-project p{font-size:14.5px;line-height:1.7;color:var(--text-2);margin:12px 0 0;font-weight:300;text-wrap:pretty}
+.q-project p b{font-weight:500;color:var(--text)}
+.q-project-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-top:20px}
+.q-project ul{font-size:13.5px;line-height:1.65;color:var(--text-2);margin:10px 0 0;padding-left:18px;font-weight:300}
+.q-project li{margin:0 0 6px}
+.q-project-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.q-status-note{font-size:11.5px;color:var(--muted);font-weight:300;margin-top:16px}
+
+.q-shot{display:flex;flex-direction:column;gap:10px}
+.q-shot-frame{border-radius:12px;overflow:hidden;background:var(--sage-tint);border:1px solid rgba(28,28,30,.10)}
+.q-shot-frame img,.q-shot-frame video{display:block;width:100%;height:auto}
+.q-shot-frame--fixed{height:300px}
+.q-shot-frame--fixed img,.q-shot-frame--fixed video{height:100%;object-fit:cover}
+.q-shot-cap{font-size:11px;color:var(--muted);font-weight:300;line-height:1.5}
+
+/* ---------- contact footer ---------------------------------------- */
+
+.q-contact{
+  margin-top:78px;border-top:1px solid var(--rule);padding:42px 0 56px;
+  display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap;
+}
+.q-email{display:block;font-size:31px;font-weight:300;letter-spacing:-.025em;margin-top:10px;color:var(--text)}
+.q-email:hover{color:var(--accent)}
+.q-email em{font-style:normal;color:var(--accent);font-weight:400}
+.q-dl{
+  display:inline-flex;flex:none;white-space:nowrap;align-items:center;gap:10px;
+  font-size:12.5px;font-weight:500;color:var(--accent);
+  border:1px solid var(--accent);border-radius:999px;padding:11px 19px;
+}
+.q-dl:hover{background:var(--sage-tint)}
+
+/* ---------- responsive -------------------------------------------- */
+
+@media (max-width: 900px){
+  :root{--gutter:22px;--section:44px}
+
+  .q-topbar-in{height:64px;gap:16px}
+  .q-brand{font-size:21px}
+  .q-menu-btn{display:inline-flex}
+  .q-nav{display:none}
+  .q-menu-toggle:checked ~ .q-nav{
+    display:flex;flex-direction:column;align-items:stretch;gap:0;
+    position:absolute;left:0;right:0;top:64px;z-index:20;
+    background:var(--surface);border-bottom:1px solid var(--rule);
+    box-shadow:0 18px 30px -26px rgba(28,28,30,.5);
+    padding:8px var(--gutter) 18px;
+  }
+  .q-menu-toggle:checked ~ .q-nav a{padding:13px 0;border-bottom:1px solid var(--rule);font-size:15px}
+  .q-menu-toggle:checked ~ .q-nav a.is-current{border-bottom:1px solid var(--rule);color:var(--accent)}
+  .q-menu-toggle:checked ~ .q-nav .q-btn,
+  .q-menu-toggle:checked ~ .q-nav .q-btn-ghost{margin-top:14px;text-align:center;border-bottom:none}
+  .q-topbar{position:relative}
+
+  .q-profilebar-in{justify-content:flex-start;gap:14px 18px}
+
+  .q-herohead{padding:44px 0 26px}
+  .q-herohead h1{font-size:34px;letter-spacing:-.022em;max-width:none}
+  .q-pagehead{padding:40px 0 24px}
+  .q-pagehead h1{font-size:27px;max-width:none}
+
+  .q-hero{grid-template-columns:1fr;gap:32px;padding-top:32px}
+  .q-portrait{height:300px;max-width:264px}
+  .q-portrait-outline{right:0;bottom:0;left:10px;top:10px}
+  .q-lede{font-size:16px;max-width:none}
+
+  .q-now-row{grid-template-columns:1fr;gap:4px}
+  .q-now-meta{text-align:left}
+
+  .q-shead h2{font-size:23px}
+
+  .q-cards-2{grid-template-columns:1fr}
+  .q-grid-3{grid-template-columns:1fr;gap:22px}
+
+  .q-paper{grid-template-columns:64px 1fr;gap:16px}
+  .q-thumb{height:84px}
+  .q-paper h3{font-size:17px}
+  .q-year{grid-column:1 / -1;text-align:left;padding-top:0}
+
+  .q-wip-row{grid-template-columns:1fr;gap:8px}
+  .q-status{text-align:left;padding-top:0}
+
+  .q-entry{grid-template-columns:1fr;gap:4px}
+  .q-entry-date{padding-top:0}
+
+  .q-project{grid-template-columns:1fr;gap:22px;padding:22px}
+  .q-shot-frame--fixed{height:auto}
+  .q-shot-frame--fixed img,.q-shot-frame--fixed video{height:auto;object-fit:contain}
+
+  .q-contact{margin-top:56px;gap:24px}
+  .q-email{font-size:23px}
+}
+
+@media (max-width: 520px){
+  .q-shelf-card{width:228px}
+  .q-cover{height:270px}
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{transition:none !important}
+}

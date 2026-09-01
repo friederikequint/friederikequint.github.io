@@ -1,0 +1,60 @@
+# Invited talks, guest lectures and workshops, newest first.
+#
+# Set `workshop: true` on anything that should also appear in the Workshops
+# section of the Teaching page. Nothing is duplicated by hand.
+
+- date: "Oct 2026"
+  title: "Invited talk at the Social Media Observatory, hosted by Prof. Andreu Casas"
+  meta: "University of Oxford · Online"
+
+- date: "Jul 2026"
+  title: "Invited guest lecture in Prof. Yannis Theocharis’ course “Social Media, Content Moderation, and Digital Governance”"
+  meta: "Technical University of Munich · Munich, Germany"
+
+- date: "May 2026"
+  title: "Invited talk to Prof. Lasse Lindekilde’s ERC group “STANDBY”"
+  meta: "Aarhus University · Aarhus, Denmark"
+
+- date: "Apr 2026"
+  title: "Talk at and organisation of the workshop “Content Moderation, Free Speech &amp; Democracy”"
+  meta: "Technical University of Munich and TUM Think Tank · Munich, Germany"
+  workshop: true
+
+- date: "Mar 2026"
+  title: "Invited talk on the state of research on reporting behaviour on social media in Germany and beyond"
+  meta: "Conference organised by Demokratiezentrum Bayern · Nuremberg, Germany"
+
+- date: "Mar 2026"
+  title: "Invited expert, meeting of the SEED (Strengthening European resilience against disinformation) CERV-funded European cooperation project"
+  meta: "Prato, Italy"
+
+- date: "Nov 2025"
+  title: "Invited talk on “Bystanders and Reporters: Who Acts Against Illegal Online Content?”"
+  meta: "ISTR Critical Perspectives Affinity Group · Online"
+
+- date: "Oct 2025"
+  title: "Invited guest lecture “Bystanders and Reporters: Who Acts Against Illegal Online Content?” in Prof. Holli A. Semetko’s course “Media, Technology and Politics in Comparative Perspective”"
+  meta: "Emory University · Atlanta, GA, USA"
+
+- date: "May 2025"
+  title: "Workshop “Protecting People or Free Speech? Attitudes towards the moderation of online content across the globe.” with Das NETTZ"
+  meta: "re:publica · Berlin, Germany"
+  workshop: true
+
+- date: "Dec 2024"
+  title: "Workshop “Reporting Harmful Content: Insights, Actions, and Impact” at the multi-stakeholder workshop “Facilitating Constructive Dialogue – Toxic Online Speech”"
+  meta: "With TUM Think Tank · Munich, Germany"
+  workshop: true
+
+- date: "Jul 2024"
+  title: "Invited talk on “Does the Community Understand the Community Guidelines?”, talk series <em>Behind the Scenes – Conversations on Empirical Platform Governance Research</em>"
+  meta: "Lab “Platform Governance, Media, and Technology” (University of Bremen) and Centre for Media and Journalism Studies (University of Groningen) · Online"
+
+- date: "Jun 2024"
+  title: "Invited talk on “Does the Community Understand the Community Guidelines?” at the workshop “Navigating the Evolving Landscape of Social Media Research”"
+  meta: "Universität der Bundeswehr · Munich, Germany"
+
+- date: "May 2024"
+  title: "Invited talk and workshop on transparency and attitudes towards content moderation on social media"
+  meta: "Das NETTZ Community Event 2024 · Berlin, Germany"
+  workshop: true

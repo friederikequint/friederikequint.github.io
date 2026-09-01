@@ -1,39 +1,81 @@
 ---
-layout: archive
+layout: quint
+nav_key: research
 title: "Research"
 permalink: /publications/
-author_profile: true
+description: "Peer-reviewed articles, research reports and work in progress on platform governance, content moderation and political communication."
 ---
 
-## Peer-reviewed Papers
+<div class="q-pagehead">
+  <div class="q-kicker">Research</div>
+  <h1>Platforms govern speech. People take part, push back, or go quiet.</h1>
+</div>
 
-Nahrgang, M., Weidmann, N. B., **Quint, F.**, Nagel, S., Theocharis, Y., & Roberts, M. E. 2025. *Written for Lawyers or Users? Mapping the Complexity of Community Guidelines.*
-Proceedings of the International AAAI Conference on Web and Social Media, 19(1), 1295-1314. [https://doi.org/10.1609/icwsm.v19i1.35873](https://doi.org/10.1609/icwsm.v19i1.35873){:target="_blank"}
+<section class="q-section">
+  <div class="q-shead"><h2>Peer-reviewed articles</h2></div>
 
-**Quint, F.**, Theocharis, Y., Nahrgang, M., Weidmann, N., & Roberts, M. E. 2026. “Does the Community Understand the Community Guidelines?.” Policy & Internet. 18: e70045. [https://doi.org/10.1002/poi3.70045](https://doi.org/10.1002/poi3.70045){:target="_blank"}
+  {%- for p in site.data.publications.peer_reviewed %}
+  <div class="q-paper{% if forloop.first %} q-paper--first{% endif %}">
+    {%- if p.cover %}
+    <a class="q-thumb" href="{{ p.doi }}" target="_blank" rel="noopener" title="Open the paper">
+      <span class="q-thumb-spine"></span>
+      <span class="q-thumb-img"><img src="{{ p.cover | relative_url }}" alt="{{ p.cover_alt }}"></span>
+    </a>
+    {%- else %}<div></div>{% endif %}
+    <div>
+      <h3>{{ p.title }}</h3>
+      <div class="q-authors">{{ p.authors }}</div>
+      <div class="q-venue">{{ p.venue }}</div>
+      {%- if p.note %}<div class="q-note">{{ p.note }}</div>{% endif %}
+      <div class="q-links">
+        <a class="q-primary" href="{{ p.doi }}" target="_blank" rel="noopener">{{ p.link_label | default: "DOI →" }}</a>
+        {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}" target="_blank">PDF</a>{% endif %}
+        {%- if p.replication %}<a href="{{ p.replication }}" target="_blank" rel="noopener">Replication data</a>{% endif %}
+      </div>
+    </div>
+    <div class="q-year">{{ p.year }}</div>
+  </div>
+  {%- endfor %}
+</section>
 
-**Quint, F.**, Theocharis, Y., Kosmidis, S., & Roberts, M. E. 2026. Bystanders and Reporters: Who Acts Against Illegal Online Content? Social Media + Society, 12(2). [https://doi.org/10.1177/20563051261437497](https://doi.org/10.1177/20563051261437497){:target="_blank"}
+<section class="q-section">
+  <div class="q-shead"><h2>Research report</h2></div>
 
-Theocharis, Y., Kosmidis, S., Zilinsky, J., & **Quint, F.** 2026. Ideology and free speech values predict content moderation preferences: cross-national evidence across targets of hate speech. Sci Rep 16, 19034 (2026). [https://doi.org/10.1038/s41598-026-56054-y](https://doi.org/10.1038/s41598-026-56054-y){:target="_blank"}
+  {%- for p in site.data.publications.reports %}
+  <div class="q-paper q-paper--first">
+    {%- if p.cover %}
+    <a class="q-thumb" href="{{ p.doi }}" target="_blank" rel="noopener" title="Open the report">
+      <span class="q-thumb-spine"></span>
+      <span class="q-thumb-img"><img src="{{ p.cover | relative_url }}" alt="{{ p.cover_alt }}"></span>
+    </a>
+    {%- else %}<div></div>{% endif %}
+    <div>
+      <h3>{{ p.title }}</h3>
+      <div class="q-authors">{{ p.authors }}</div>
+      <div class="q-venue">{{ p.venue }}</div>
+      {%- if p.note %}<div class="q-note">{{ p.note }}</div>{% endif %}
+      <div class="q-links">
+        <a class="q-primary" href="{{ p.doi }}" target="_blank" rel="noopener">{{ p.link_label | default: "DOI →" }}</a>
+        {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}" target="_blank">PDF</a>{% endif %}
+        {%- if p.replication %}<a href="{{ p.replication }}" target="_blank" rel="noopener">Replication data</a>{% endif %}
+      </div>
+    </div>
+    <div class="q-year">{{ p.year }}</div>
+  </div>
+  {%- endfor %}
+</section>
 
----
-
-## Research Report
-
-Theocharis, Y., Kosmidis, S., Zilinsky, J., **Quint, F.**, & Pradel, F. (2025, February 11).  
-*Content Warning: Public Attitudes on Content Moderation and Freedom of Expression.*  
-[DOI: 10.17605/OSF.IO/F56BH](https://osf.io/s3kcw){:target="_blank"}
-
-
-
-## Work in Progress (selected)
-
-`*` denotes shared first co-authorship.
-
-Pradel, F., **Quint, F.**, Kosmidis, S., & Theocharis, Y. Systemic Toxicity Inference Predicts Withdrawal Across 10 Democracies
-
-**Quint, F.** Loud Minorities, Silent Majorities: Political Efficacy, Platform Pessimism, and Who Stays Silent on Social Media
-
-**Quint, F.**\*, Asimovic, N.\*, Zilinsky, J., Singh, L., Bode, L., & Theocharis, Y. Political Communication in a Fragmented Platform Ecosystem
-
---- 
+<section class="q-section">
+  <div class="q-shead q-shead--tight"><h2>Work in progress</h2></div>
+  <div class="q-wip">
+    {%- for w in site.data.work_in_progress %}
+    <div class="q-wip-row">
+      <div>
+        <h4>{{ w.title }}</h4>
+        <div class="q-wip-authors">{{ w.authors }}</div>
+      </div>
+      <div class="q-status">{{ w.status }}</div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>

@@ -1,33 +1,41 @@
 ---
-layout: archive
+layout: quint
+nav_key: talks
 title: "Invited Talks & Presentations"
 permalink: /talks/
-author_profile: true
+description: "Invited talks, guest lectures, workshops and conference presentations, 2024 to 2026."
 ---
 
-{% if site.talkmap_link == true %}
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-{% endif %}
+<div class="q-pagehead">
+  <div class="q-kicker">Talks &amp; conferences</div>
+  <h1>Where this work has been presented and discussed.</h1>
+</div>
 
-<h1>Invited Talks</h1>
-{% assign talks_only = site.talks | where: "type", "Invited Talk" | sort: "date" %}
-{% assign talks_by_year = talks_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
-{% for year in talks_by_year %}
-  <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
-  {% assign items_sorted = year.items | sort: "date" | reverse %}
-  {% for post in items_sorted %}
-    {% include archive-single-talk.html %}
-  {% endfor %}
-{% endfor %}
+<section class="q-section">
+  <div class="q-shead">
+    <h2>Invited talks &amp; workshops</h2>
+    <div class="q-kicker">2024 – 2026</div>
+  </div>
+  {%- for t in site.data.talks %}
+  <div class="q-entry">
+    <div class="q-entry-date">{{ t.date }}</div>
+    <div>
+      <h4>{{ t.title }}</h4>
+      <div class="q-entry-meta">{{ t.meta }}</div>
+    </div>
+  </div>
+  {%- endfor %}
+</section>
 
-<h1 style="margin-top: 2.5em;">Presentations</h1>
-{% assign pres_only = site.talks | where: "type", "Presentation" | sort: "date" %}
-{% assign pres_by_year = pres_only | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
-{% for year in pres_by_year %}
-  <h2 style="margin-top: 1.5em; font-size: 1.25em; font-weight: 700;">{{ year.name }}</h2>
-  {% assign items_sorted = year.items | sort: "date" | reverse %}
-  {% for post in items_sorted %}
-    {% include archive-single-talk.html %}
-  {% endfor %}
-{% endfor %}
-
+<section class="q-section">
+  <div class="q-shead"><h2>Conferences</h2></div>
+  {%- for c in site.data.conferences %}
+  <div class="q-entry">
+    <div class="q-entry-date">{{ c.date }}</div>
+    <div>
+      <h4>{{ c.title }}</h4>
+      <div class="q-entry-meta">{{ c.meta }}</div>
+    </div>
+  </div>
+  {%- endfor %}
+</section>

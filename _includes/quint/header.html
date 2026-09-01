@@ -1,0 +1,30 @@
+{%- comment -%}
+  Site header: wordmark, main nav, CV / Contact buttons, and the profile-link row.
+  Nav items come from _data/quint_nav.yml, profile links from _data/quint_profile_links.yml.
+  Edit those two files, not this one.
+{%- endcomment -%}
+
+<header class="q-topbar">
+  <div class="q-wrap q-topbar-in">
+    <a class="q-brand" href="{{ '/' | relative_url }}">Friederike <b>Quint</b></a>
+
+    <input class="q-menu-toggle" type="checkbox" id="q-menu-toggle">
+    <label class="q-menu-btn" for="q-menu-toggle" role="button" tabindex="0" aria-label="Toggle navigation">Menu</label>
+
+    <nav class="q-nav" aria-label="Main">
+      {%- for item in site.data.quint_nav.main %}
+      <a href="{{ item.url | relative_url }}"{% if page.nav_key == item.key %} class="is-current" aria-current="page"{% endif %}>{{ item.title }}</a>
+      {%- endfor %}
+      <a class="q-btn-ghost" href="{{ '/cv/' | relative_url }}">CV</a>
+      <a class="q-btn" href="mailto:{{ site.author.email }}">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="q-profilebar">
+  <div class="q-wrap q-profilebar-in">
+    {%- for link in site.data.quint_profile_links %}
+    <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
+    {%- endfor %}
+  </div>
+</div>
