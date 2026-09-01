@@ -1,5 +1,5 @@
 # CV page content. The PDF at cv/Friederike-Quint-CV.pdf remains the full record.
-updated: "31 August 2026"
+updated: "01 September 2026"
 
 interests:
   - "Political communication"
@@ -28,54 +28,9 @@ education:
     meta: "Mannheim, Germany. Thesis: <em>The Impact of Hate Speech Laws on Content Moderation – Evidence from Germany’s NetzDG</em>"
 
 experience:
-  - date: "Nov 2026 – 2028"
-    title: "Incoming Postdoctoral Researcher, University of Oxford"
-    meta: "Oxford, United Kingdom. Postdoc in political communication at the Social Media Observatory led by Andreu Casas"
   - date: "May 2024 –"
     title: "Member, Content Moderation Lab, TUM Think Tank"
     meta: "Munich, Germany. Leading and conducting research projects that provide decision-makers in politics and industry with information for crafting, implementing, and enforcing content moderation policies; organisation of academic and mixed-stakeholder workshops"
   - date: "2023 – 2026"
     title: "Research Associate, Technical University of Munich"
     meta: "Munich, Germany. Chair of Digital Governance (Prof. Yannis Theocharis); project “Transparency in Content Moderation” (Max Planck–Humboldt Research Award 2022) with Profs. Margaret E. Roberts, Yannis Theocharis and Nils Weidmann"
-  - date: "2021 – 2023"
-    title: "Research Assistant, University of Mannheim"
-    meta: "Mannheim, Germany. Chair of Empirical Democracy Research (Prof. Richard Traunmüller)"
-  - date: "2022 – 2023"
-    title: "Research Internship European Public Affairs, Ipsos"
-    meta: "Leuven, Belgium. Quantitative and qualitative research projects for EU institutions; collaboration on a project proposal on discrimination in AI"
-  - date: "2019 – 2021"
-    title: "Research Assistant, GESIS – Leibniz Institute for the Social Sciences"
-    meta: "Mannheim, Germany. Survey Design &amp; Methodology: preparation, execution and evaluation of cognitive pretest interviews (CAWI, CATI, CAPI, PAPI)"
-
-training:
-  - date: "2024, 2025"
-    title: "Oxford Spring School in Advanced Research Methods"
-    meta: "University of Oxford. Causal inference: field and survey experiments; design-based approaches; machine learning"
-  - date: "2023"
-    title: "Advanced Quantitative Methods"
-    meta: "University of Mannheim"
-  - date: "2024 – 2026"
-    title: "Professional development workshops"
-    meta: "Technical University of Munich. Grant writing, academic writing, presentation and communication"
-
-skills:
-  - label: "Languages"
-    body: "German (C2, native proficiency)<br>English (C2, full professional proficiency)<br>Dutch (B2, professional working proficiency)"
-  - label: "Software"
-    body: "R/RStudio, Python, Stata; R Shiny; Qualtrics, QuestionPro, Prolific"
-  - label: "Research infrastructure"
-    body: "Git/GitHub, LaTeX (Overleaf), RMarkdown, Google Colab, HTML/CSS"
-
-references:
-  - name: "Prof. Margaret E. Roberts"
-    affiliation: "Department of Political Science<br>University of California, San Diego, USA"
-    email: "meroberts@ucsd.edu"
-  - name: "Prof. Spyros Kosmidis"
-    affiliation: "Department of Politics and International Relations<br>University of Oxford, Oxford, UK"
-    email: "spyros.kosmidis@politics.ox.ac.uk"
-  - name: "Prof. Yannis Theocharis"
-    affiliation: "Chair of Digital Governance<br>Technical University of Munich"
-    email: "yannis.theocharis@hfp.tum.de"
-  - name: "Prof. Lasse Lindekilde"
-    affiliation: "Department of Political Science<br>Aarhus University"
-    email: "lindekilde@ps.au.dk"
