@@ -1,0 +1,57 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %} 
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+      {% else %}
+        {{ title }}
+      {% endif %}
+      {% comment %}
+      If you want to show a small "Details" link to the talk's own page, 
+      just remove the surrounding comment below.
+      <a class="archive__item-permalink" href="{{ base_path }}{{ post.url }}" rel="permalink">
+        Details
+      </a>
+      {% endcomment %}
+    </h2>
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    <p class="page__meta">
+      {% if post.date %}
+        <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+      {% endif %}
+      {% if post.location %}
+        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.location }}
+      {% endif %}
+    </p>
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
+  </article>
+</div>

@@ -1,0 +1,20 @@
+# Main navigation for the redesigned layout.
+# `key` must match the `nav_key` in each page's front matter so the current
+# item gets underlined. The CV and Contact buttons are added by the header
+# include and are not listed here.
+main:
+  - title: "About"
+    url: /
+    key: about
+  - title: "Research"
+    url: /publications/
+    key: research
+  - title: "Talks"
+    url: /talks/
+    key: talks
+  - title: "Teaching"
+    url: /teaching/
+    key: teaching
+  - title: "Fun Projects"
+    url: /projectsforfun/
+    key: fun

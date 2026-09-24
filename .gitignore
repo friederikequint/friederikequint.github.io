@@ -1,0 +1,28 @@
+# Ignore the contents of the _site directory
+_site/
+
+# Ignore the directory for local files during development
+local/
+
+# Ignore the Gemfile that is generated
+Gemfile.lock
+
+# Ingore files created by npm
+node_modules
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Data files
+*.sav
+*.zsav
+*.por
+*.dta
+*.rds
+*.RData
+*.rda
+*.csv
+*.tsv
+*.xlsx
+*.xls

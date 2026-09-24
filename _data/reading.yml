@@ -1,0 +1,21 @@
+# The "Off the clock" block at the foot of the About page.
+# current = what you are reading now, best = what you finished this year, best first.
+# color is the page-edge stripe. #8C4A63 is the plum, #5B7A61 the sage.
+# Delete the whole "best" list and the ranked section disappears on its own.
+year: 2026
+
+current:
+  - title: "Careless People"
+    author: "Sarah Wynn-Williams"
+    color: "#8C4A63"
+  - title: "Single Mom Supper Club"
+    author: "Jacinta Nandi"
+    color: "#5B7A61"
+
+best:
+  - title: "Yesteryear"
+    author: "Caro Claire Burke"
+  - title: "NEMESIS' TÖCHTER: 3000 Jahre zwischen Female Rage und Zusammenhalt"
+    author: "Tara-Louise Wittwer"
+  - title: "The Vegetarian"
+    author: "Han Kang"

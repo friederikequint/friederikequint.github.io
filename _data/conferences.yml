@@ -1,0 +1,67 @@
+# Conference presentations, newest first.
+# name = the conference. place = city and ISO 3166-1 alpha-2 country code.
+
+- year: 2026
+  month: "Oct"
+  name: "Digital Publics Conference"
+  place: "Zurich, CH"
+
+- year: 2026
+  month: "Jun"
+  name: "European Political Science Society (EPSS)"
+  place: "Belfast, GB"
+
+- year: 2026
+  month: "Apr"
+  name: "Content Moderation, Free Speech &amp; Democracy Workshop"
+  place: "Munich, DE"
+
+- year: 2025
+  month: "Nov"
+  name: "Digital Democracy Workshop"
+  place: "Zurich, CH"
+
+- year: 2025
+  month: "Sep"
+  name: "Political Communication APSA Preconference"
+  place: "Vancouver, CA"
+
+- year: 2025
+  month: "Sep"
+  name: "American Political Science Association (APSA)"
+  place: "Vancouver, CA"
+
+- year: 2025
+  month: "Jul"
+  name: "European Political Science Association (EPSA)"
+  place: "Madrid, ES"
+
+- year: 2025
+  month: "Jun"
+  name: "AoIR Flashpoint Symposium"
+  place: "Bremen, DE"
+
+- year: 2025
+  month: "May"
+  name: "Content Moderation, Free Speech and Platform Governance Workshop"
+  place: "Royal Holloway, London, GB"
+
+- year: 2024
+  month: "Oct"
+  name: "Digital Democracy Workshop"
+  place: "Zurich, CH"
+
+- year: 2024
+  month: "Sep"
+  name: "American Political Science Association (APSA)"
+  place: "Philadelphia, US"
+
+- year: 2024
+  month: "Jul"
+  name: "European Political Science Association (EPSA)"
+  place: "Cologne, DE"
+
+- year: 2024
+  month: "Jun"
+  name: "Navigating the Evolving Landscape of Social Media Research"
+  place: "Munich, DE"

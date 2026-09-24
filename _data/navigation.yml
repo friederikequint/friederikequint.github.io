@@ -1,0 +1,34 @@
+# main links links
+main:
+  - title: "CV"
+    url: /cv/
+
+  - title: "Research"
+    url: /publications/
+
+  - title: "Media"
+    url: /media/
+
+  - title: "Invited Talks & Presentations"
+
+    url: /talks/  
+
+  - title: "Teaching & Workshops"
+    url: /teaching/   
+
+  - title: "Fun Projects"
+    url: /projectsforfun/   
+
+
+  
+
+ 
+    
+#  - title: "Portfolio"
+ #   url: /portfolio/
+        
+#  - title: "Blog Posts"
+ #   url: /year-archive/
+    
+#  - title: "Guide"
+ #   url: /markdown/

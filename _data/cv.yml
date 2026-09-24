@@ -1,0 +1,39 @@
+# CV page content. The PDF at cv/Friederike-Quint-CV.pdf remains the full record.
+#updated: "01 September 2026"
+
+interests:
+  - "Political communication"
+  - "Platform governance"
+  - "Content moderation"
+  - "Digital media"
+  - "Online participation and disengagement"
+  - "Surveys and survey experiments"
+  - "Computational social science"
+
+education:
+  - date: "Sep 2023 –"
+    title: "PhD Political Science, Technical University of Munich"
+    meta: "Munich, Germany. Expected graduation November 2026. Dissertation: <em>Designed by Platforms, Practiced by Users: The Asymmetries of Platform Governance</em>. First supervisor: Prof. Yannis Theocharis; second supervisor: Prof. Margaret E. Roberts"
+  - date: "May 2026"
+    title: "Visiting PhD student, Aarhus University"
+    meta: "Aarhus, Denmark. Department of Political Science, advisor Prof. Lasse Lindekilde. Collaboration in the ERC project “Standing by: Pro-social Bystander Reactions to Online Political Hostility”"
+  - date: "2021 – 2023"
+    title: "M.A. Political Science, University of Mannheim"
+    meta: "Mannheim, Germany. Thesis: <em>Social Media Experience and Self-censorship – A Causal Story of Costs and Benefits?</em>"
+  - date: "2022 – 2023"
+    title: "Semester abroad, Aarhus University"
+    meta: "Aarhus, Denmark. Courses in political psychology, Danish politics, international politics, quantitative methods"
+  - date: "2018 – 2021"
+    title: "B.A. Political Science, University of Mannheim"
+    meta: "Mannheim, Germany. Thesis: <em>The Impact of Hate Speech Laws on Content Moderation – Evidence from Germany’s NetzDG</em>"
+
+experience:
+  - date: "2026 –"   # TODO: fix the start year if the appointment began earlier
+    title: "Member, SEED Advisory Committee"
+    meta: "Strategic advisory body supporting the <a href=\"https://www.monash.edu/news/articles/monash-leads-global-push-against-disinformation-among-youth\" target=\"_blank\" rel=\"noopener\">SEED</a> consortium throughout the implementation of the project, a global effort against disinformation among young people"
+  - date: "May 2024 –"
+    title: "Member, Content Moderation Lab, TUM Think Tank"
+    meta: "Munich, Germany. Leading and conducting research projects that provide decision-makers in politics and industry with information for crafting, implementing, and enforcing content moderation policies; organization of academic and mixed-stakeholder workshops"
+  - date: "2023 – 2026"
+    title: "Research Associate, Technical University of Munich"
+    meta: "Munich, Germany. Chair of Digital Governance (Prof. Yannis Theocharis); project “Transparency in Content Moderation” (Max Planck–Humboldt Research Award 2022) with Profs. Margaret E. Roberts, Yannis Theocharis and Nils Weidmann"

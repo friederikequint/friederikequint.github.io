@@ -1,0 +1,90 @@
+# Invited talks, guest lectures and workshops, newest first.
+#
+# host   = who invited you. This is the headline on the page, so keep it short.
+# topic  = what you spoke about. Second line, quieter.
+# place  = city and ISO 3166-1 alpha-2 country code, or "Online".
+# type   = the small tag on the right. Invited talk / Guest lecture / Workshop /
+#          Invited expert / Talk & workshop.
+# Set `workshop: true` on anything that should also appear in the Workshops
+# section of the Teaching page. Nothing is written out twice.
+
+- year: 2026
+  month: "May"
+  host: "Aarhus University"
+  topic: "Invited talk to Prof. Lasse Lindekilde’s ERC group “STANDBY”"
+  place: "Aarhus, DK"
+  type: "Invited talk"
+
+- year: 2026
+  month: "Apr"
+  host: "TUM and TUM Think Tank"
+  topic: "Talk at and organization of the workshop “Content Moderation, Free Speech &amp; Democracy”"
+  place: "Munich, DE"
+  type: "Workshop"
+  workshop: true
+
+- year: 2026
+  month: "Mar"
+  host: "Demokratiezentrum Bayern"
+  topic: "The state of research on reporting behavior on social media in Germany and beyond"
+  place: "Nuremberg, DE"
+  type: "Invited talk"
+
+- year: 2026
+  month: "Mar"
+  host: "SEED project meeting"
+  topic: "Invited expert, CERV-funded European cooperation project on resilience against disinformation"
+  place: "Prato, IT"
+  type: "Invited expert"
+
+- year: 2025
+  month: "Nov"
+  host: "ISTR Critical Perspectives Affinity Group"
+  topic: "“Bystanders and Reporters: Who Acts Against Illegal Online Content?”"
+  place: "Online"
+  type: "Invited talk"
+
+- year: 2025
+  month: "Oct"
+  host: "Emory University"
+  topic: "Guest lecture in Prof. Holli A. Semetko’s course “Media, Technology and Politics in Comparative Perspective”"
+  place: "Atlanta, US"
+  type: "Guest lecture"
+
+- year: 2025
+  month: "May"
+  host: "re:publica"
+  topic: "Workshop “Protecting People or Free Speech?” with Das NETTZ"
+  place: "Berlin, DE"
+  type: "Workshop"
+  workshop: true
+
+- year: 2024
+  month: "Dec"
+  host: "TUM Think Tank"
+  topic: "Workshop “Reporting Harmful Content: Insights, Actions, and Impact”"
+  place: "Munich, DE"
+  type: "Workshop"
+  workshop: true
+
+- year: 2024
+  month: "Jul"
+  host: "Universities of Bremen and Groningen"
+  topic: "Talk series <em>Behind the Scenes – Conversations on Empirical Platform Governance Research</em>"
+  place: "Online"
+  type: "Invited talk"
+
+- year: 2024
+  month: "Jun"
+  host: "Universität der Bundeswehr"
+  topic: "Workshop “Navigating the Evolving Landscape of Social Media Research”"
+  place: "Munich, DE"
+  type: "Invited talk"
+
+- year: 2024
+  month: "May"
+  host: "Das NETTZ Community Event"
+  topic: "Transparency and attitudes towards content moderation on social media"
+  place: "Berlin, DE"
+  type: "Talk &amp; workshop"
+  workshop: true

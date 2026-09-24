@@ -1,0 +1,66 @@
+---
+layout: quint
+nav_key: talks
+title: "Invited Talks & Presentations"
+permalink: /talks/
+description: "Invited talks, guest lectures, workshops and conference presentations, 2024 to 2026."
+---
+
+<div class="q-pagehead">
+  <div class="q-kicker">Talks &amp; conferences</div>
+</div>
+
+{%- comment -%}
+  Entries come from _data/talks.yml and _data/conferences.yml. Both are grouped
+  by year here, so the year is printed once per block rather than on every row.
+  A comparison against the previous entry opens a new block.
+{%- endcomment -%}
+
+<section class="q-section">
+  <div class="q-shead">
+    <h2>Invited talks &amp; workshops</h2>
+    <div class="q-kicker">2024 – 2026</div>
+  </div>
+
+  {%- assign current_year = "" %}
+  {%- for t in site.data.talks %}
+    {%- if t.year != current_year %}
+      {%- unless forloop.first %}</div></div>{% endunless %}
+      <div class="q-yr"><div class="q-yr-n">{{ t.year }}</div><div class="q-yr-rows">
+      {%- assign current_year = t.year %}
+    {%- endif %}
+    <div class="q-trow">
+      <div class="q-trow-mo">{{ t.month }}</div>
+      <div>
+        <h4>{{ t.host }}</h4>
+        <div class="q-trow-sub">{{ t.topic }} <span>· {{ t.place }}</span></div>
+      </div>
+      <div class="q-type{% if t.type contains 'Workshop' or t.type contains 'workshop' %} q-type--w{% endif %}">{{ t.type }}</div>
+    </div>
+    {%- if forloop.last %}</div></div>{% endif %}
+  {%- endfor %}
+</section>
+
+<section class="q-section">
+  <div class="q-shead">
+    <h2>Conferences</h2>
+    <div class="q-kicker">Presentations</div>
+  </div>
+
+  <div class="q-cgrid">
+    {%- assign current_year = "" %}
+    {%- for c in site.data.conferences %}
+      {%- if c.year != current_year %}
+        <div class="q-cgrid-year q-kicker">{{ c.year }}</div>
+        {%- assign current_year = c.year %}
+      {%- endif %}
+      <div class="q-crow">
+        <div class="q-trow-mo">{{ c.month }}</div>
+        <div>
+          <b>{{ c.name }}</b>
+          <span>{{ c.place }}</span>
+        </div>
+      </div>
+    {%- endfor %}
+  </div>
+</section>
