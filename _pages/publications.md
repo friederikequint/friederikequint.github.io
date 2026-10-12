@@ -71,4 +71,10 @@ description: "Peer-reviewed articles, research reports and work in progress."
     </div>
     {%- endfor %}
   </div>
+
+  {%- assign shared = "" %}
+  {%- for w in site.data.work_in_progress %}{% if w.authors contains "*" %}{% assign shared = "yes" %}{% endif %}{% endfor %}
+  {%- if shared == "yes" %}
+  <p class="q-footnote"><span aria-hidden="true">*</span> Shared first authorship.</p>
+  {%- endif %}
 </section>

@@ -1,4 +1,7 @@
 # Papers in progress. `status` shows on the right of each row.
+# An asterisk after a surname marks shared first authorship. The footnote
+# explaining it sits at the foot of the Work in progress section in
+# _pages/publications.md and only appears when an asterisk is present.
 - title: "The Free Speech Gap: Symbolic Commitment and Contextual Divergence"
   authors: "Kosmidis, Theocharis, <b>Quint</b> &amp; Zilinsky"
   status: "Data collection"
@@ -16,5 +19,5 @@
   status: "Submitted"
 
 - title: "Political Communication in a Fragmented Platform Ecosystem"
-  authors: "<b>Quint</b>, Asimovic, Zilinsky, Singh, Bode &amp; Theocharis"
+  authors: "<b>Quint</b>*, Asimovic*, Zilinsky, Singh, Bode &amp; Theocharis"
   status: "In preparation"
