@@ -14,7 +14,7 @@ description: "I study how online platforms govern speech and how users perceive,
     </div>
   </div>
   <div>
-    <p class="q-lede">I am an incoming Postdoctoral Researcher at the <a href="https://www.linkedin.com/company/oxford-social-media-observatory/posts/?feedView=all" target="_blank" rel="noopener">Oxford Social Media Observatory (OSMO)</a> at the University of Oxford. My research examines how online platforms govern speech—and how users perceive, interpret, and respond to content moderation decisions and mechanisms within broader and evolving patterns of social media use.</p>
+    <p class="q-lede">I am Postdoctoral Researcher in Political Communication at the <a href="https://www.linkedin.com/company/oxford-social-media-observatory/posts/?feedView=all" target="_blank" rel="noopener">Oxford Social Media Observatory (OSMO)</a> at the Department of Politics and International Relations, University of Oxford. My research examines how online platforms govern speech—and how users perceive, interpret, and respond to content moderation decisions and mechanisms within broader and evolving patterns of social media use.</p>
 
     <div class="q-chips">
       <span>Content moderation</span>
@@ -31,18 +31,20 @@ description: "I study how online platforms govern speech and how users perceive,
         <div class="q-now-title">Does the Community Understand the Community Guidelines?</div>
         <div class="q-now-meta q-now-meta--accent">Policy &amp; Internet</div>
       </div>
+      <!-- Next talk hidden (talk given). Uncomment to show again.
       <div class="q-now-row">
         <div class="q-now-label">Next talk</div>
         <div class="q-now-title">Digital Publics Conference, University of Zurich</div>
         <div class="q-now-meta">Zurich, Oct 2026</div>
       </div>
+      -->
     </div>
   </div>
 </div>
 
 <div class="q-prose">
   <p>I recently submitted my doctoral dissertation at the Technical University of Munich (TUM), where I worked as a research associate at the <a href="https://www.hfp.tum.de/en/digitalgovernance/home/" target="_blank" rel="noopener">Chair of Digital Governance</a>. My work was situated within the project <a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/analyse-des-verhaltens-von-social-media-plattformen" target="_blank" rel="noopener"><em>Transparency in Content Moderation</em></a>, which examines how moderation rules are designed, communicated, and understood in practice, and how these processes shape user behavior and trust in platform governance.</p>
-  <p>I am also involved as a research collaborator in the <a href="https://tumthinktank.de/project/content-moderation-lab/" target="_blank" rel="noopener">Content Moderation Lab</a>, incubated at the TUM Think Tank. Across projects, my research combines survey experiments, observational data, and causal inference approaches, complemented by computational analyses.</p>
+  <p>I continue to be involved as a research collaborator in the <a href="https://tumthinktank.de/project/content-moderation-lab/" target="_blank" rel="noopener">Content Moderation Lab</a>, incubated at the TUM Think Tank. Across projects, my research combines survey experiments, observational data, and causal inference approaches, complemented by computational analyses.</p>
 </div>
 
 <section class="q-section">

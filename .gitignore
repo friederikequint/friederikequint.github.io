@@ -26,3 +26,4 @@ package-lock.json
 *.tsv
 *.xlsx
 *.xls
+.Rproj.user
