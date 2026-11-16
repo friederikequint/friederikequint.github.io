@@ -2,22 +2,34 @@
 # An asterisk after a surname marks shared first authorship. The footnote
 # explaining it sits at the foot of the Work in progress section in
 # _pages/publications.md and only appears when an asterisk is present.
-- title: "The Free Speech Gap: Symbolic Commitment and Contextual Divergence"
-  authors: "Kosmidis, Theocharis, <b>Quint</b> &amp; Zilinsky"
-  status: "Data collection"
-
-- title: "Bystander or Bot? The Effects of Human versus AI Responses to Online Hostility"
-  authors: "Lindekilde, Hoes, <b>Quint</b>, Klüser, Rasmussen, Skovgaard Jensen &amp; Gilardi"
-  status: "In preparation"
-
-- title: "Systemic Toxicity Inference Predicts Political Withdrawal Across 10 Democracies"
-  authors: "Pradel, <b>Quint</b>, Kosmidis &amp; Theocharis"
-  status: "In preparation"
-
 - title: "Loud Minorities, Silent Majorities: Political Efficacy, Platform Pessimism, and Who Stays Silent on Social Media"
   authors: "<b>Quint</b>"
   status: "Submitted"
 
 - title: "Political Communication in a Fragmented Platform Ecosystem"
   authors: "<b>Quint</b>*, Asimovic*, Zilinsky, Singh, Bode &amp; Theocharis"
-  status: "In preparation"
+  status: "Submitted"
+
+- title: "Systemic Toxicity Inference Predicts Political Withdrawal Across 10 Democracies"
+  authors: "Pradel, <b>Quint</b>, Kosmidis &amp; Theocharis"
+  status: "Submitted"
+
+- title: "The Free Speech Gap: Symbolic Commitment and Contextual Divergence"
+  authors: "Kosmidis, Theocharis, <b>Quint</b> &amp; Zilinsky"
+  status: "Data collection"
+
+- title: "Perceptions of and Exposure to Misinformation on Social Media"
+  authors: "Dagher, <b>Quint</b>, Majo-Vazquez, van Atteveldt &amp; Casas"
+  status: "Data collection"
+
+- title: "A month of fact-checking and media literacy helps people identify false claims and deepfakes, without detectable negative spillovers: Evidence from Spain and Romania"
+  authors: "Casas, Majo-Vazquez, Carrillo, <b>Quint</b>, Dagher, Cardenal, van der Velden, Corbu, Castro, Stancea &amp; van Atteveldt"
+  status: "In progress"
+
+- title: "Bystander or Bot? The Effects of Human versus AI Responses to Online Hostility"
+  authors: "Lindekilde, Rasmussen, Schulz Karg, <b>Quint</b>, Klüser, Hoes &amp; Gilardi"
+  status: "In progress"
+
+- title: "Message, Messenger, or Machine? Disentangling Far-Right and Populist Success on Social Media"
+  authors: "<b>Quint</b>, Heseltine, Bermudez-Villalva &amp; Casas"
+  status: "In progress"
